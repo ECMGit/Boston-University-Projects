@@ -1,0 +1,85 @@
+#!/bin/bash
+#set -x
+MAXP=101
+
+RED='#ff0000'
+GREEN='#00ff00'
+BLUE='#0000ff'
+WHITE='#ffffff'
+BLACK='#000000'
+PURPLE='#ff00ff'
+GRAY='#7d7d7d'
+
+H=32
+W=32
+
+ALPHA=$PURPLE
+TEAMA=$RED
+TEAMB=$GREEN
+
+NO_FLAG_CENTER='#ffffff'
+NO_FLAG_STROKE=$TEAMA
+TEAMA_FLAG_CENTER=$TEAMA
+TEAMA_FLAG_STROKE=$BLACK
+TEAMB_FLAG_CENTER=$TEAMB
+TEAMB_FLAG_STROKE=$BLACK
+DISABLED_CENTER=$GRAY
+
+echo -n convert -size "$((W*4*$MAXP))x${H}" "xc:${ALPHA}" -font "Helvetica" -pointsize "14" > teama.cmd
+echo -n convert -size "$((W*4*$MAXP))x${H}" "xc:${ALPHA}" -font "Helvetica" -pointsize "14" > teamb.cmd 
+
+echo "constructing image creatation arguments ..."
+
+for ((NUM=0; NUM<MAXP; NUM++))
+do
+  c0x0=$(echo "$W*4*$NUM + $W*0 + 15.5" | bc);
+  c1x0=$(echo "$W*4*$NUM + $W*1 + 15.5" | bc);
+  c2x0=$(echo "$W*4*$NUM + $W*2 + 15.5" | bc);
+  c3x0=$(echo "$W*4*$NUM + $W*3 + 15.5" | bc);
+  c0x1=$(echo "$W*4*$NUM + $W*0 + 16" | bc);
+  c1x1=$(echo "$W*4*$NUM + $W*1 + 16" | bc);
+  c2x1=$(echo "$W*4*$NUM + $W*2 + 16" | bc);
+  c3x1=$(echo "$W*4*$NUM + $W*3 + 16" | bc);
+
+  if ((NUM < 10))
+  then
+    toff=12
+  else 
+    if ((NUM < 100))
+    then
+      toff=7
+    else
+      toff=3
+    fi
+  fi
+ 
+  t0x0=$(echo "$W*4*$NUM + $W*0 + $toff" | bc);
+  t1x0=$(echo "$W*4*$NUM + $W*1 + $toff" | bc);
+  t2x0=$(echo "$W*4*$NUM + $W*2 + $toff" | bc);
+  t3x0=$(echo "$W*4*$NUM + $W*3 + $toff" | bc);
+ 
+  echo -n  " -stroke \"${TEAMA}\"  -strokewidth \"3\" -fill \"${NO_FLAG_CENTER}\" \
+        -draw \"circle $c0x0,15.5,$c0x1,2\" -strokewidth 1 -draw \"text $t0x0,20 '${NUM}'\" \
+        -strokewidth \"3\" -fill \"${TEAMA_FLAG_CENTER}\" -draw \"circle $c1x0,15.5,$c1x1,2\" \
+        -stroke \"${TEAMA_FLAG_STROKE}\" -strokewidth \"1\" -draw \"text $t1x0,20 '${NUM}'\"\
+        -stroke \"${TEAMA}\" -strokewidth \"3\" -fill \"${TEAMB_FLAG_CENTER}\" -draw \"circle $c2x0,15.5,$c2x1,2\" \
+        -strokewidth \"1\" -draw \"text $t2x0,20 '${NUM}'\"\
+        -strokewidth \"3\" -fill \"${DISABLED_CENTER}\" -draw \"circle $c3x0,15.5,$c3x1,2\" \
+        -strokewidth \"1\" -draw \"text $t3x0,20 '${NUM}'\"" >> teama.cmd
+
+  echo -n " -stroke \"${TEAMB}\"  -strokewidth \"3\" -fill \"${NO_FLAG_CENTER}\" \
+        -draw \"circle $c0x0,15.5,$c0x1,2\" -strokewidth 1 -draw \"text $t0x0,20 '${NUM}'\" \
+        -strokewidth \"3\" -fill \"${TEAMB_FLAG_CENTER}\" -draw \"circle $c1x0,15.5,$c1x1,2\" \
+        -stroke \"${TEAMB_FLAG_STROKE}\" -strokewidth \"1\" -draw \"text $t1x0,20 '${NUM}'\"\
+        -stroke \"${TEAMB}\" -strokewidth \"3\" -fill \"${TEAMA_FLAG_CENTER}\" -draw \"circle $c2x0,15.5,$c2x1,2\" \
+        -strokewidth \"1\" -draw \"text $t2x0,20 '${NUM}'\"\
+        -strokewidth \"3\" -fill \"${DISABLED_CENTER}\" -draw \"circle $c3x0,15.5,$c3x1,2\" \
+        -strokewidth \"1\" -draw \"text $t3x0,20 '${NUM}'\"" >> teamb.cmd 
+done
+
+echo "issuing image creating commands ..."
+
+echo " teama.bmp" >> teama.cmd
+echo " teamb.bmp" >> teamb.cmd
+
+

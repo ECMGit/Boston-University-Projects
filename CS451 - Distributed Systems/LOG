@@ -1,0 +1,18 @@
+
+Meeting 1 - 1/24 5-7 p.m.
+  first meeting as a group.
+  Went over chapters from UNP, started getting acquainted with using git
+  set up lib, client, server directories
+  discussed and examined net.c and where to progress in order to get the echo client and server operational
+
+Meeting 2 - 1/29 8-11 p.m.
+  Got client and server up and connected, echo not functional yet
+  CTF rules and basics talked about
+
+Meeting 3 - 2/3 2-4 p.m.
+  Finishing up lab 1
+    Can echo strings of indefinite length, just need to get it working correctly with new provided server
+
+  Lab 2
+    Worked on architecture for game, structs/functions
+    Beginning work on maze.c/h and functions for client
