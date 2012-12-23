@@ -1,0 +1,10 @@
+Introduce foldr, f, b, x, xs
+
+Assume \forall f, b, x, xs. foldr f b (x:xs) = f x (foldr f b xs)
+Assume \forall f, b. 	    foldr f b []     = b
+
+Introduce  ys, ++
+Assume \forall x,xs,ys.	 (x:xs) ++ ys = x:(xs ++ ys)
+Assume \forall ys.	 []     ++ ys = ys
+
+

@@ -1,0 +1,41 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+</head>
+
+<body>
+<h1>Practicing image and video input/output in  C++ or Java</h1>
+<p>Tim Duffy<br />
+CS 440, Assignement P0<br />
+January 24, 2012</p>
+<hr />
+<h2>Problem</h2>
+<p>Using a live video input, invert the colors and display in real time.</p>
+<hr />
+<h2>Implementation</h2>
+<p>Skeleton code was provided to capture video from a webcam. The inverted image was computed by inverting the color of each pixel in the image. Nested loops were used to access each pixel. To invert to color, the original color intensity for each channel (red, gree, and blue) was subtracted from 255 (the highest intesity value).</p>
+<hr />
+<h2>Results</h2>
+<blockquote>
+  <blockquote>
+    <blockquote>
+      <table width="732" border="0">
+        <tr>
+          <td width="361"><div align="center">Source image</div></td>
+          <td width="361"><div align="center">Result image</div></td>
+        </tr>
+        <tr>
+          <td colspan="2"><p><img src="screen2.jpg" width="721" height="260" alt="Screen Cap'd" /></p>
+          <p><img src="screen3.jpg" width="721" height="260" alt="Yay, It's working!" /></p>
+          <p><img src="screen4.jpg" width="723" height="258" alt="Hmmmm..." /></p></td>
+        </tr>
+      </table>
+      <p>&nbsp;</p>
+    </blockquote>
+  </blockquote>
+</blockquote>
+<p>	It is worth noting that the result (negative) image seems to drop frames from the live video output. Even on a fast machine, this implementation is computationally intensive and slow.</p>
+</body>
+</html>

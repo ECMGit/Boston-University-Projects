@@ -1,0 +1,9 @@
+Time 			w 	# served   total in system (q)
+    CPU: 0.0   	0	   1		1
+   Disk: 0.0   	0	   0		0
+Network: 0.0   	0	   0		0
+
+    CPU: 1000.0   	33	   1		34
+   Disk: 1000.0   	0	   0		0
+Network: 1000.0   	0	   0		0
+

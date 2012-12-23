@@ -1,0 +1,18 @@
+Unsorted array
+n	Insertion Sort (in nanoseconds)	Merge Sort (ns)	Quick Sort (ns)
+10	12851			51403		36038
+100	264000			298921		151137
+1,000	3596268			331327		2366223
+10,000	131368931		11604827		5435048
+100,000	4 999 182 019 (4.99 seconds)	32593248		17065297
+1,000,000	618 350 464 095 (10.3 minutes)		
+
+Sorted array
+n	Insertion Sort (in nanoseconds)	Merge Sort (ns)	Quick Sort (ns)
+10	5866			23187		13968
+100	10616			104204		569067
+1,000	52241			1285638		1629536
+10,000	468495			3804673		Stack overflow
+100,000	1663899			24299457		Stack overflow
+1,000,000	6217550			276254664	Stack overflow
+

@@ -1,0 +1,30 @@
+----------------------------------------------------------------
+-- Computer Science 320 (Fall, 2009)
+-- Concepts of Programming Languages
+--
+-- Assignments 6, 7, and 8
+--   tests1.mhs
+
+----------------------------------------------------------------
+-- Test code for mini-Haskell Interpreter
+
+----------------------------------------------------------------
+-- Expressions without variables
+
+-- Using ev0 in Eval.hs, this should evaluate to
+-- "[True,False,True]". This should *fail* type checking under
+-- ty0.
+
+if not (not (not True) && (False || True)) then
+   True True True
+else
+  if True then
+   True : False : True : []
+  else
+   ()
+
+-- Note that the first branch should *not* be evaluated, as
+-- the condition does not evaluate to "True", so no evaluation
+-- error should occur.
+
+--eof

@@ -1,0 +1,23 @@
+/* Variable.java: class that defines a variable object
+ * 
+ * code by Tim Duffy <timmahd@bu.edu>
+ */
+
+public class Variable{
+  protected char name;
+  protected  int value;
+  
+  //constructor
+  public Variable(char name){
+    this.name = name;
+  }
+  
+  //accessor methods
+    public char getName(char ch){
+    return ch;
+  }
+  
+  public int getValue(){
+    return value;
+  }
+}

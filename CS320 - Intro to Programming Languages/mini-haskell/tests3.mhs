@@ -1,0 +1,41 @@
+----------------------------------------------------------------
+-- Computer Science 320 (Fall, 2009)
+-- Concepts of Programming Languages
+--
+-- Assignments 6, 7, and 8
+--   tests3.mhs
+
+----------------------------------------------------------------
+-- Test code for Mini-Haskell Interpreter
+
+----------------------------------------------------------------
+-- This program builds a small list of numbers using an
+-- extremely limited form of recursion.
+
+-- The monomorphic type system for Mini-Haskell is not capable
+-- of type checking the lambda expression for a fixed point
+-- operator, but a bounded approximation of the operator can be
+-- simulated.
+
+-- This program should type check under "ty" in the "Ty" module,
+-- although this may take several seconds because many constraints
+-- are generated.
+
+let fix6 = \f->\g->f(f(f(f(f(f g))))) in
+
+  -- This functions lists all the numbers up to 'max'.
+
+let listNumsBas = \max -> \count -> [] in
+let listNumsInd = \listNums -> 
+                  \max -> \count ->
+                    if count == max then 
+                      []
+                    else 
+                      count : listNums max (count + 1) in
+
+  -- This is the fixed point of "listNumsInd".
+let listNums = fix6 listNumsInd listNumsBas in
+
+  listNums 6 2
+
+--eof

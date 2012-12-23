@@ -1,0 +1,25 @@
+----------------------------------------------------------------
+-- Computer Science 320 (Fall, 2009)
+-- Concepts of Programming Languages
+--
+-- Assignments 6, 7, and 8
+--   tests2.mhs
+
+----------------------------------------------------------------
+-- Test code for mini-Haskell Interpreter
+
+----------------------------------------------------------------
+-- Expressions with variables.
+
+-- Using ev in Eval.hs, this should evaluate to "(20, 50)", and
+-- using ty1 it should type check as "(Int, Int)".
+
+let x = 2 * 10 in
+let y = 13 + 17 + x in
+let b = True || False in
+let p = (x,y) in
+let l = 1 : 2 : 3 : 4 : []
+in
+   if b then p else (head l, head (tail l))
+
+--eof

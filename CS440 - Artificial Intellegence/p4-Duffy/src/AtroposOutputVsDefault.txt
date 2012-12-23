@@ -1,0 +1,1744 @@
+This will be a fantastic battle between Script and Default!
+              [1   3]
+            [3   0   2]
+          [1   0   0   3]
+        [3   0   0   0   2]
+      [1   0   0   0   0   3]
+    [3   0   0   0   0   0   2]
+  [1   0   0   0   0   0   0   3]
+[3   0   0   0   0   0   0   0   2]
+  [1   2   1   2   1   2   1   2]
+Last Play: null
+
+Script will go first.
+The game had the following moves:
+[Circle colored 1 at: (1, 4, 4).
+, Circle colored 1 at: (1, 5, 3).
+, Circle colored 2 at: (2, 4, 3).
+, Circle colored 1 at: (2, 3, 4).
+, Circle colored 1 at: (3, 3, 3).
+, Circle colored 3 at: (3, 2, 4).
+, Circle colored 1 at: (4, 2, 3).
+, Circle colored 1 at: (5, 1, 3).
+, Circle colored 3 at: (6, 1, 2).
+, Circle colored 1 at: (5, 2, 2).
+, Circle colored 3 at: (4, 3, 2).
+, Circle colored 1 at: (3, 4, 2).
+, Circle colored 2 at: (2, 5, 2).
+, Circle colored 1 at: (1, 6, 2).
+, Circle colored 2 at: (1, 7, 1).
+, Circle colored 2 at: (2, 6, 1).
+, Circle colored 2 at: (3, 5, 1).
+, Circle colored 1 at: (4, 4, 1).
+]
+Script has won in 18 moves!
+Final board:
+              [1   3]
+            [3   0   2]
+          [1   3   0   3]
+        [3   1   1   0   2]
+      [1   0   1   3   1   3]
+    [3   0   3   1   1   2   2]
+  [1   0   0   1   2   2   2   3]
+[3   0   0   0   1   1   1   2   2]
+  [1   2   1   2   1   2   1   2]
+Last Play: (1, 4, 4, 1)
+
+This will be a fantastic battle between Script and Default!
+              [1   3]
+            [3   0   2]
+          [1   0   0   3]
+        [3   0   0   0   2]
+      [1   0   0   0   0   3]
+    [3   0   0   0   0   0   2]
+  [1   0   0   0   0   0   0   3]
+[3   0   0   0   0   0   0   0   2]
+  [1   2   1   2   1   2   1   2]
+Last Play: null
+
+Script will go first.
+The game had the following moves:
+[Circle colored 1 at: (1, 4, 4).
+, Circle colored 2 at: (1, 3, 5).
+, Circle colored 1 at: (2, 3, 4).
+, Circle colored 1 at: (3, 2, 4).
+, Circle colored 2 at: (3, 3, 3).
+, Circle colored 3 at: (3, 4, 2).
+, Circle colored 2 at: (4, 4, 1).
+, Circle colored 2 at: (3, 5, 1).
+, Circle colored 2 at: (2, 6, 1).
+, Circle colored 2 at: (1, 7, 1).
+, Circle colored 1 at: (1, 6, 2).
+, Circle colored 2 at: (2, 5, 2).
+, Circle colored 1 at: (1, 5, 3).
+, Circle colored 2 at: (2, 4, 3).
+, Circle colored 1 at: (1, 1, 7).
+, Circle colored 1 at: (1, 2, 6).
+, Circle colored 1 at: (2, 2, 5).
+, Circle colored 3 at: (3, 1, 5).
+, Circle colored 1 at: (4, 1, 4).
+, Circle colored 2 at: (4, 2, 3).
+, Circle colored 2 at: (4, 3, 2).
+, Circle colored 1 at: (5, 2, 2).
+, Circle colored 3 at: (6, 2, 1).
+, Circle colored 3 at: (6, 1, 2).
+, Circle colored 3 at: (7, 1, 1).
+, Circle colored 1 at: (5, 1, 3).
+, Circle colored 1 at: (2, 1, 6).
+, Circle colored 1 at: (5, 3, 1).
+]
+Script has won in 28 moves!
+Final board:
+              [1   3]
+            [3   3   2]
+          [1   3   3   3]
+        [3   1   1   1   2]
+      [1   1   2   2   2   3]
+    [3   3   1   2   3   2   2]
+  [1   1   1   1   2   2   2   3]
+[3   1   1   2   1   1   1   2   2]
+  [1   2   1   2   1   2   1   2]
+Last Play: (1, 5, 3, 1)
+
+This will be a fantastic battle between Script and Default!
+              [1   3]
+            [3   0   2]
+          [1   0   0   3]
+        [3   0   0   0   2]
+      [1   0   0   0   0   3]
+    [3   0   0   0   0   0   2]
+  [1   0   0   0   0   0   0   3]
+[3   0   0   0   0   0   0   0   2]
+  [1   2   1   2   1   2   1   2]
+Last Play: null
+
+Script will go first.
+The game had the following moves:
+[Circle colored 1 at: (1, 4, 4).
+, Circle colored 3 at: (2, 4, 3).
+, Circle colored 2 at: (3, 4, 2).
+, Circle colored 3 at: (4, 4, 1).
+, Circle colored 2 at: (3, 5, 1).
+, Circle colored 2 at: (2, 5, 2).
+, Circle colored 1 at: (1, 6, 2).
+, Circle colored 2 at: (2, 6, 1).
+, Circle colored 2 at: (1, 7, 1).
+, Circle colored 1 at: (1, 2, 6).
+, Circle colored 1 at: (1, 3, 5).
+, Circle colored 3 at: (2, 3, 4).
+, Circle colored 2 at: (3, 3, 3).
+, Circle colored 1 at: (4, 2, 3).
+, Circle colored 2 at: (4, 3, 2).
+, Circle colored 2 at: (5, 2, 2).
+, Circle colored 2 at: (5, 3, 1).
+, Circle colored 2 at: (6, 2, 1).
+, Circle colored 1 at: (6, 1, 2).
+, Circle colored 1 at: (5, 1, 3).
+, Circle colored 1 at: (4, 1, 4).
+, Circle colored 1 at: (3, 1, 5).
+, Circle colored 1 at: (2, 2, 5).
+, Circle colored 3 at: (2, 1, 6).
+, Circle colored 1 at: (1, 1, 7).
+, Circle colored 1 at: (1, 5, 3).
+]
+Script has won in 26 moves!
+Final board:
+              [1   3]
+            [3   0   2]
+          [1   1   2   3]
+        [3   1   2   2   2]
+      [1   1   1   2   3   3]
+    [3   1   0   2   2   2   2]
+  [1   3   1   3   3   2   2   3]
+[3   1   1   1   1   1   1   2   2]
+  [1   2   1   2   1   2   1   2]
+Last Play: (1, 1, 5, 3)
+
+This will be a fantastic battle between Script and Default!
+              [1   3]
+            [3   0   2]
+          [1   0   0   3]
+        [3   0   0   0   2]
+      [1   0   0   0   0   3]
+    [3   0   0   0   0   0   2]
+  [1   0   0   0   0   0   0   3]
+[3   0   0   0   0   0   0   0   2]
+  [1   2   1   2   1   2   1   2]
+Last Play: null
+
+Script will go first.
+The game had the following moves:
+[Circle colored 1 at: (1, 4, 4).
+, Circle colored 2 at: (1, 3, 5).
+, Circle colored 1 at: (2, 3, 4).
+, Circle colored 1 at: (3, 3, 3).
+, Circle colored 1 at: (4, 3, 2).
+, Circle colored 1 at: (4, 2, 3).
+, Circle colored 2 at: (5, 2, 2).
+, Circle colored 1 at: (5, 1, 3).
+, Circle colored 1 at: (6, 1, 2).
+, Circle colored 3 at: (7, 1, 1).
+, Circle colored 1 at: (6, 2, 1).
+]
+Default has won in 11 moves!
+Final board:
+              [1   3]
+            [3   3   2]
+          [1   1   1   3]
+        [3   1   2   0   2]
+      [1   0   1   1   0   3]
+    [3   0   0   1   0   0   2]
+  [1   0   0   1   0   0   0   3]
+[3   0   0   2   1   0   0   0   2]
+  [1   2   1   2   1   2   1   2]
+Last Play: (1, 6, 2, 1)
+
+This will be a fantastic battle between Script and Default!
+              [1   3]
+            [3   0   2]
+          [1   0   0   3]
+        [3   0   0   0   2]
+      [1   0   0   0   0   3]
+    [3   0   0   0   0   0   2]
+  [1   0   0   0   0   0   0   3]
+[3   0   0   0   0   0   0   0   2]
+  [1   2   1   2   1   2   1   2]
+Last Play: null
+
+Default will go first.
+The game had the following moves:
+[Circle colored 3 at: (3, 2, 4).
+, Circle colored 3 at: (3, 3, 3).
+, Circle colored 3 at: (4, 2, 3).
+, Circle colored 2 at: (4, 3, 2).
+, Circle colored 2 at: (5, 3, 1).
+, Circle colored 2 at: (5, 2, 2).
+, Circle colored 3 at: (6, 1, 2).
+, Circle colored 3 at: (7, 1, 1).
+, Circle colored 2 at: (6, 2, 1).
+, Circle colored 1 at: (1, 1, 7).
+, Circle colored 1 at: (2, 1, 6).
+, Circle colored 1 at: (1, 2, 6).
+, Circle colored 1 at: (2, 2, 5).
+, Circle colored 1 at: (1, 3, 5).
+, Circle colored 2 at: (1, 4, 4).
+, Circle colored 1 at: (2, 3, 4).
+, Circle colored 1 at: (2, 4, 3).
+, Circle colored 1 at: (1, 5, 3).
+, Circle colored 1 at: (1, 6, 2).
+, Circle colored 2 at: (1, 7, 1).
+, Circle colored 2 at: (2, 6, 1).
+, Circle colored 1 at: (2, 5, 2).
+, Circle colored 3 at: (3, 4, 2).
+, Circle colored 3 at: (4, 4, 1).
+, Circle colored 1 at: (3, 5, 1).
+]
+Script has won in 25 moves!
+Final board:
+              [1   3]
+            [3   3   2]
+          [1   3   2   3]
+        [3   0   2   2   2]
+      [1   0   3   2   3   3]
+    [3   0   3   3   3   1   2]
+  [1   1   1   1   1   1   2   3]
+[3   1   1   1   2   1   1   2   2]
+  [1   2   1   2   1   2   1   2]
+Last Play: (1, 3, 5, 1)
+
+This will be a fantastic battle between Script and Default!
+              [1   3]
+            [3   0   2]
+          [1   0   0   3]
+        [3   0   0   0   2]
+      [1   0   0   0   0   3]
+    [3   0   0   0   0   0   2]
+  [1   0   0   0   0   0   0   3]
+[3   0   0   0   0   0   0   0   2]
+  [1   2   1   2   1   2   1   2]
+Last Play: null
+
+Default will go first.
+The game had the following moves:
+[Circle colored 1 at: (5, 1, 3).
+, Circle colored 1 at: (4, 2, 3).
+, Circle colored 3 at: (3, 2, 4).
+, Circle colored 3 at: (3, 3, 3).
+, Circle colored 3 at: (3, 4, 2).
+, Circle colored 2 at: (4, 4, 1).
+, Circle colored 3 at: (4, 3, 2).
+, Circle colored 2 at: (5, 3, 1).
+, Circle colored 2 at: (6, 2, 1).
+, Circle colored 3 at: (5, 2, 2).
+, Circle colored 3 at: (6, 1, 2).
+, Circle colored 3 at: (7, 1, 1).
+, Circle colored 1 at: (1, 5, 3).
+, Circle colored 2 at: (1, 4, 4).
+, Circle colored 1 at: (1, 3, 5).
+, Circle colored 1 at: (2, 3, 4).
+, Circle colored 1 at: (2, 4, 3).
+, Circle colored 3 at: (2, 5, 2).
+, Circle colored 2 at: (2, 6, 1).
+, Circle colored 2 at: (3, 5, 1).
+, Circle colored 2 at: (1, 2, 6).
+, Circle colored 1 at: (2, 2, 5).
+, Circle colored 1 at: (3, 1, 5).
+, Circle colored 1 at: (2, 1, 6).
+, Circle colored 1 at: (1, 1, 7).
+, Circle colored 2 at: (1, 7, 1).
+, Circle colored 1 at: (1, 6, 2).
+]
+Script has won in 27 moves!
+Final board:
+              [1   3]
+            [3   3   2]
+          [1   3   2   3]
+        [3   1   3   2   2]
+      [1   0   1   3   2   3]
+    [3   1   3   3   3   2   2]
+  [1   1   1   1   1   3   2   3]
+[3   1   2   1   2   1   1   2   2]
+  [1   2   1   2   1   2   1   2]
+Last Play: (1, 1, 6, 2)
+
+This will be a fantastic battle between Script and Default!
+              [1   3]
+            [3   0   2]
+          [1   0   0   3]
+        [3   0   0   0   2]
+      [1   0   0   0   0   3]
+    [3   0   0   0   0   0   2]
+  [1   0   0   0   0   0   0   3]
+[3   0   0   0   0   0   0   0   2]
+  [1   2   1   2   1   2   1   2]
+Last Play: null
+
+Default will go first.
+The game had the following moves:
+[Circle colored 1 at: (1, 6, 2).
+, Circle colored 1 at: (1, 5, 3).
+, Circle colored 2 at: (1, 4, 4).
+, Circle colored 2 at: (2, 4, 3).
+, Circle colored 3 at: (3, 4, 2).
+, Circle colored 2 at: (3, 3, 3).
+, Circle colored 2 at: (4, 3, 2).
+, Circle colored 2 at: (4, 2, 3).
+, Circle colored 1 at: (5, 1, 3).
+, Circle colored 3 at: (6, 1, 2).
+, Circle colored 3 at: (7, 1, 1).
+, Circle colored 2 at: (6, 2, 1).
+, Circle colored 2 at: (5, 3, 1).
+, Circle colored 2 at: (4, 4, 1).
+, Circle colored 3 at: (3, 5, 1).
+, Circle colored 2 at: (2, 5, 2).
+, Circle colored 2 at: (2, 6, 1).
+, Circle colored 2 at: (1, 7, 1).
+, Circle colored 1 at: (1, 1, 7).
+, Circle colored 1 at: (2, 1, 6).
+, Circle colored 2 at: (2, 2, 5).
+, Circle colored 1 at: (1, 2, 6).
+, Circle colored 1 at: (1, 3, 5).
+, Circle colored 1 at: (2, 3, 4).
+, Circle colored 2 at: (3, 2, 4).
+, Circle colored 1 at: (3, 1, 5).
+, Circle colored 1 at: (4, 1, 4).
+, Circle colored 2 at: (5, 2, 2).
+]
+Default has won in 28 moves!
+Final board:
+              [1   3]
+            [3   3   2]
+          [1   3   2   3]
+        [3   1   2   2   2]
+      [1   1   2   2   2   3]
+    [3   1   2   2   3   3   2]
+  [1   1   2   1   2   2   2   3]
+[3   1   1   1   2   1   1   2   2]
+  [1   2   1   2   1   2   1   2]
+Last Play: (2, 5, 2, 2)
+
+This will be a fantastic battle between Script and Default!
+              [1   3]
+            [3   0   2]
+          [1   0   0   3]
+        [3   0   0   0   2]
+      [1   0   0   0   0   3]
+    [3   0   0   0   0   0   2]
+  [1   0   0   0   0   0   0   3]
+[3   0   0   0   0   0   0   0   2]
+  [1   2   1   2   1   2   1   2]
+Last Play: null
+
+Default will go first.
+The game had the following moves:
+[Circle colored 2 at: (5, 3, 1).
+, Circle colored 2 at: (4, 4, 1).
+, Circle colored 1 at: (3, 4, 2).
+, Circle colored 1 at: (4, 3, 2).
+, Circle colored 1 at: (4, 2, 3).
+, Circle colored 2 at: (3, 3, 3).
+, Circle colored 2 at: (2, 4, 3).
+, Circle colored 1 at: (1, 5, 3).
+, Circle colored 1 at: (2, 5, 2).
+, Circle colored 2 at: (3, 5, 1).
+, Circle colored 2 at: (2, 6, 1).
+, Circle colored 2 at: (1, 7, 1).
+, Circle colored 1 at: (1, 6, 2).
+, Circle colored 1 at: (1, 1, 7).
+, Circle colored 3 at: (2, 1, 6).
+, Circle colored 1 at: (1, 2, 6).
+, Circle colored 1 at: (2, 2, 5).
+, Circle colored 1 at: (3, 1, 5).
+, Circle colored 1 at: (3, 2, 4).
+, Circle colored 1 at: (4, 1, 4).
+, Circle colored 3 at: (5, 1, 3).
+, Circle colored 1 at: (6, 1, 2).
+, Circle colored 3 at: (7, 1, 1).
+, Circle colored 3 at: (6, 2, 1).
+, Circle colored 1 at: (5, 2, 2).
+]
+Script has won in 25 moves!
+Final board:
+              [1   3]
+            [3   3   2]
+          [1   1   3   3]
+        [3   3   1   2   2]
+      [1   1   1   1   2   3]
+    [3   1   1   2   1   2   2]
+  [1   3   1   0   2   1   2   3]
+[3   1   1   0   0   1   1   2   2]
+  [1   2   1   2   1   2   1   2]
+Last Play: (1, 5, 2, 2)
+
+This will be a fantastic battle between Script and Default!
+              [1   3]
+            [3   0   2]
+          [1   0   0   3]
+        [3   0   0   0   2]
+      [1   0   0   0   0   3]
+    [3   0   0   0   0   0   2]
+  [1   0   0   0   0   0   0   3]
+[3   0   0   0   0   0   0   0   2]
+  [1   2   1   2   1   2   1   2]
+Last Play: null
+
+Script will go first.
+The game had the following moves:
+[Circle colored 1 at: (1, 4, 4).
+, Circle colored 2 at: (1, 5, 3).
+, Circle colored 1 at: (2, 4, 3).
+, Circle colored 1 at: (2, 5, 2).
+, Circle colored 2 at: (3, 5, 1).
+, Circle colored 3 at: (4, 4, 1).
+, Circle colored 2 at: (3, 4, 2).
+, Circle colored 2 at: (4, 3, 2).
+, Circle colored 1 at: (3, 3, 3).
+, Circle colored 2 at: (4, 2, 3).
+, Circle colored 1 at: (3, 2, 4).
+, Circle colored 1 at: (3, 1, 5).
+, Circle colored 1 at: (4, 1, 4).
+, Circle colored 1 at: (5, 1, 3).
+, Circle colored 3 at: (6, 1, 2).
+, Circle colored 3 at: (6, 2, 1).
+, Circle colored 1 at: (5, 2, 2).
+, Circle colored 1 at: (5, 3, 1).
+]
+Script has won in 18 moves!
+Final board:
+              [1   3]
+            [3   0   2]
+          [1   3   3   3]
+        [3   1   1   1   2]
+      [1   1   2   2   3   3]
+    [3   1   1   1   2   2   2]
+  [1   0   0   0   1   1   0   3]
+[3   0   0   0   1   2   0   0   2]
+  [1   2   1   2   1   2   1   2]
+Last Play: (1, 5, 3, 1)
+
+This will be a fantastic battle between Script and Default!
+              [1   3]
+            [3   0   2]
+          [1   0   0   3]
+        [3   0   0   0   2]
+      [1   0   0   0   0   3]
+    [3   0   0   0   0   0   2]
+  [1   0   0   0   0   0   0   3]
+[3   0   0   0   0   0   0   0   2]
+  [1   2   1   2   1   2   1   2]
+Last Play: null
+
+Script will go first.
+The game had the following moves:
+[Circle colored 1 at: (1, 4, 4).
+, Circle colored 1 at: (1, 3, 5).
+, Circle colored 2 at: (2, 3, 4).
+, Circle colored 1 at: (3, 2, 4).
+, Circle colored 1 at: (3, 3, 3).
+, Circle colored 1 at: (2, 4, 3).
+, Circle colored 1 at: (3, 4, 2).
+, Circle colored 3 at: (3, 5, 1).
+, Circle colored 3 at: (4, 4, 1).
+, Circle colored 1 at: (4, 3, 2).
+, Circle colored 3 at: (5, 3, 1).
+, Circle colored 3 at: (6, 2, 1).
+, Circle colored 1 at: (5, 2, 2).
+, Circle colored 3 at: (5, 1, 3).
+, Circle colored 1 at: (4, 2, 3).
+, Circle colored 1 at: (4, 1, 4).
+, Circle colored 1 at: (3, 1, 5).
+, Circle colored 3 at: (2, 1, 6).
+, Circle colored 1 at: (1, 1, 7).
+, Circle colored 1 at: (1, 2, 6).
+, Circle colored 1 at: (2, 2, 5).
+, Circle colored 3 at: (2, 6, 1).
+, Circle colored 2 at: (1, 7, 1).
+, Circle colored 2 at: (1, 6, 2).
+, Circle colored 3 at: (2, 5, 2).
+, Circle colored 1 at: (1, 5, 3).
+]
+Script has won in 26 moves!
+Final board:
+              [1   3]
+            [3   0   2]
+          [1   0   3   3]
+        [3   3   1   3   2]
+      [1   1   1   1   3   3]
+    [3   1   1   1   1   3   2]
+  [1   3   1   2   1   3   3   3]
+[3   1   1   1   1   1   2   2   2]
+  [1   2   1   2   1   2   1   2]
+Last Play: (1, 1, 5, 3)
+
+This will be a fantastic battle between Script and Default!
+                  [1   3]
+                [3   0   2]
+              [1   0   0   3]
+            [3   0   0   0   2]
+          [1   0   0   0   0   3]
+        [3   0   0   0   0   0   2]
+      [1   0   0   0   0   0   0   3]
+    [3   0   0   0   0   0   0   0   2]
+  [1   0   0   0   0   0   0   0   0   3]
+[3   0   0   0   0   0   0   0   0   0   2]
+  [1   2   1   2   1   2   1   2   1   2]
+Last Play: null
+
+Default will go first.
+The game had the following moves:
+[Circle colored 1 at: (6, 2, 3).
+, Circle colored 2 at: (5, 3, 3).
+, Circle colored 1 at: (4, 4, 3).
+, Circle colored 2 at: (3, 5, 3).
+, Circle colored 1 at: (4, 5, 2).
+, Circle colored 2 at: (5, 5, 1).
+, Circle colored 2 at: (4, 6, 1).
+, Circle colored 3 at: (3, 7, 1).
+, Circle colored 2 at: (3, 6, 2).
+, Circle colored 2 at: (2, 7, 2).
+, Circle colored 2 at: (2, 6, 3).
+, Circle colored 1 at: (1, 7, 3).
+, Circle colored 2 at: (1, 8, 2).
+, Circle colored 2 at: (2, 8, 1).
+, Circle colored 2 at: (1, 9, 1).
+, Circle colored 1 at: (1, 1, 9).
+, Circle colored 1 at: (1, 2, 8).
+, Circle colored 1 at: (1, 3, 7).
+, Circle colored 1 at: (1, 4, 6).
+, Circle colored 2 at: (2, 3, 6).
+, Circle colored 1 at: (2, 4, 5).
+, Circle colored 1 at: (3, 4, 4).
+, Circle colored 1 at: (4, 3, 4).
+, Circle colored 1 at: (3, 3, 5).
+, Circle colored 2 at: (3, 2, 6).
+, Circle colored 1 at: (4, 2, 5).
+, Circle colored 1 at: (4, 1, 6).
+, Circle colored 3 at: (5, 1, 5).
+, Circle colored 1 at: (5, 2, 4).
+, Circle colored 1 at: (6, 1, 4).
+, Circle colored 1 at: (7, 1, 3).
+, Circle colored 3 at: (8, 1, 2).
+, Circle colored 1 at: (7, 2, 2).
+, Circle colored 1 at: (6, 3, 2).
+, Circle colored 2 at: (5, 4, 2).
+, Circle colored 2 at: (6, 4, 1).
+, Circle colored 2 at: (7, 3, 1).
+, Circle colored 1 at: (8, 2, 1).
+]
+Default has won in 38 moves!
+Final board:
+                  [1   3]
+                [3   0   2]
+              [1   3   1   3]
+            [3   1   1   2   2]
+          [1   1   1   1   2   3]
+        [3   3   1   2   2   2   2]
+      [1   1   1   1   1   1   2   3]
+    [3   0   2   1   1   2   2   3   2]
+  [1   0   0   2   1   0   2   2   2   3]
+[3   1   1   1   1   0   0   1   2   2   2]
+  [1   2   1   2   1   2   1   2   1   2]
+Last Play: (1, 8, 2, 1)
+
+This will be a fantastic battle between Script and Default!
+                  [1   3]
+                [3   0   2]
+              [1   0   0   3]
+            [3   0   0   0   2]
+          [1   0   0   0   0   3]
+        [3   0   0   0   0   0   2]
+      [1   0   0   0   0   0   0   3]
+    [3   0   0   0   0   0   0   0   2]
+  [1   0   0   0   0   0   0   0   0   3]
+[3   0   0   0   0   0   0   0   0   0   2]
+  [1   2   1   2   1   2   1   2   1   2]
+Last Play: null
+
+Default will go first.
+The game had the following moves:
+[Circle colored 3 at: (2, 1, 8).
+, Circle colored 1 at: (3, 1, 7).
+, Circle colored 1 at: (2, 2, 7).
+, Circle colored 1 at: (3, 2, 6).
+, Circle colored 3 at: (4, 1, 6).
+, Circle colored 1 at: (5, 1, 5).
+, Circle colored 1 at: (6, 1, 4).
+, Circle colored 1 at: (7, 1, 3).
+, Circle colored 1 at: (6, 2, 3).
+, Circle colored 1 at: (6, 3, 2).
+, Circle colored 1 at: (7, 2, 2).
+, Circle colored 3 at: (7, 3, 1).
+, Circle colored 3 at: (6, 4, 1).
+, Circle colored 2 at: (5, 5, 1).
+, Circle colored 3 at: (5, 4, 2).
+, Circle colored 3 at: (4, 4, 3).
+, Circle colored 3 at: (5, 3, 3).
+, Circle colored 1 at: (4, 3, 4).
+, Circle colored 3 at: (4, 2, 5).
+, Circle colored 1 at: (3, 3, 5).
+, Circle colored 2 at: (2, 4, 5).
+, Circle colored 1 at: (3, 4, 4).
+, Circle colored 2 at: (2, 5, 4).
+, Circle colored 1 at: (3, 5, 3).
+, Circle colored 3 at: (4, 5, 2).
+, Circle colored 2 at: (4, 6, 1).
+, Circle colored 2 at: (3, 7, 1).
+, Circle colored 2 at: (2, 8, 1).
+, Circle colored 3 at: (2, 7, 2).
+, Circle colored 1 at: (1, 7, 3).
+, Circle colored 2 at: (1, 6, 4).
+, Circle colored 1 at: (1, 5, 5).
+, Circle colored 2 at: (1, 4, 6).
+, Circle colored 1 at: (1, 3, 7).
+, Circle colored 1 at: (1, 2, 8).
+, Circle colored 1 at: (1, 1, 9).
+, Circle colored 2 at: (2, 3, 6).
+, Circle colored 2 at: (1, 9, 1).
+, Circle colored 1 at: (1, 8, 2).
+]
+Script has won in 39 moves!
+Final board:
+                  [1   3]
+                [3   0   2]
+              [1   0   0   3]
+            [3   1   1   3   2]
+          [1   1   1   1   3   3]
+        [3   1   0   3   3   2   2]
+      [1   3   3   1   3   3   2   3]
+    [3   1   1   1   1   1   0   2   2]
+  [1   3   1   2   2   2   0   3   2   3]
+[3   1   1   1   2   1   2   1   1   2   2]
+  [1   2   1   2   1   2   1   2   1   2]
+Last Play: (1, 1, 8, 2)
+
+This will be a fantastic battle between Script and Default!
+                  [1   3]
+                [3   0   2]
+              [1   0   0   3]
+            [3   0   0   0   2]
+          [1   0   0   0   0   3]
+        [3   0   0   0   0   0   2]
+      [1   0   0   0   0   0   0   3]
+    [3   0   0   0   0   0   0   0   2]
+  [1   0   0   0   0   0   0   0   0   3]
+[3   0   0   0   0   0   0   0   0   0   2]
+  [1   2   1   2   1   2   1   2   1   2]
+Last Play: null
+
+Default will go first.
+The game had the following moves:
+[Circle colored 1 at: (1, 7, 3).
+, Circle colored 1 at: (1, 6, 4).
+, Circle colored 1 at: (2, 5, 4).
+, Circle colored 2 at: (2, 6, 3).
+, Circle colored 2 at: (2, 7, 2).
+, Circle colored 2 at: (3, 6, 2).
+, Circle colored 2 at: (3, 5, 3).
+, Circle colored 1 at: (3, 4, 4).
+, Circle colored 3 at: (4, 3, 4).
+, Circle colored 2 at: (5, 3, 3).
+, Circle colored 2 at: (5, 4, 2).
+, Circle colored 2 at: (6, 4, 1).
+, Circle colored 2 at: (5, 5, 1).
+, Circle colored 1 at: (4, 5, 2).
+, Circle colored 2 at: (4, 6, 1).
+, Circle colored 2 at: (3, 7, 1).
+, Circle colored 2 at: (2, 8, 1).
+, Circle colored 2 at: (1, 9, 1).
+, Circle colored 1 at: (1, 8, 2).
+, Circle colored 1 at: (1, 1, 9).
+, Circle colored 3 at: (2, 1, 8).
+, Circle colored 1 at: (3, 1, 7).
+, Circle colored 3 at: (3, 2, 6).
+, Circle colored 3 at: (3, 3, 5).
+, Circle colored 3 at: (2, 4, 5).
+, Circle colored 1 at: (1, 5, 5).
+, Circle colored 1 at: (1, 4, 6).
+, Circle colored 1 at: (1, 3, 7).
+, Circle colored 1 at: (2, 3, 6).
+, Circle colored 1 at: (2, 2, 7).
+, Circle colored 1 at: (1, 2, 8).
+, Circle colored 1 at: (4, 1, 6).
+, Circle colored 3 at: (5, 1, 5).
+, Circle colored 1 at: (4, 2, 5).
+, Circle colored 3 at: (5, 2, 4).
+, Circle colored 1 at: (6, 1, 4).
+, Circle colored 3 at: (6, 2, 3).
+, Circle colored 1 at: (7, 1, 3).
+, Circle colored 1 at: (7, 2, 2).
+, Circle colored 3 at: (8, 2, 1).
+, Circle colored 3 at: (7, 3, 1).
+, Circle colored 3 at: (6, 3, 2).
+, Circle colored 3 at: (9, 1, 1).
+, Circle colored 1 at: (8, 1, 2).
+, Circle colored 1 at: (4, 4, 3).
+]
+Script has won in 45 moves!
+Final board:
+                  [1   3]
+                [3   3   2]
+              [1   1   3   3]
+            [3   1   1   3   2]
+          [1   1   3   3   2   3]
+        [3   3   3   2   2   2   2]
+      [1   1   1   3   1   1   2   3]
+    [3   1   3   3   1   2   2   2   2]
+  [1   3   1   1   3   1   2   2   2   3]
+[3   1   1   1   1   1   1   1   1   2   2]
+  [1   2   1   2   1   2   1   2   1   2]
+Last Play: (1, 4, 4, 3)
+
+This will be a fantastic battle between Script and Default!
+                  [1   3]
+                [3   0   2]
+              [1   0   0   3]
+            [3   0   0   0   2]
+          [1   0   0   0   0   3]
+        [3   0   0   0   0   0   2]
+      [1   0   0   0   0   0   0   3]
+    [3   0   0   0   0   0   0   0   2]
+  [1   0   0   0   0   0   0   0   0   3]
+[3   0   0   0   0   0   0   0   0   0   2]
+  [1   2   1   2   1   2   1   2   1   2]
+Last Play: null
+
+Default will go first.
+The game had the following moves:
+[Circle colored 2 at: (1, 2, 8).
+, Circle colored 1 at: (1, 3, 7).
+, Circle colored 1 at: (2, 2, 7).
+, Circle colored 1 at: (2, 3, 6).
+, Circle colored 1 at: (3, 3, 5).
+, Circle colored 2 at: (4, 3, 4).
+, Circle colored 1 at: (3, 4, 4).
+, Circle colored 1 at: (4, 4, 3).
+, Circle colored 2 at: (5, 4, 2).
+, Circle colored 1 at: (5, 3, 3).
+, Circle colored 1 at: (5, 2, 4).
+, Circle colored 1 at: (6, 2, 3).
+, Circle colored 3 at: (6, 1, 4).
+, Circle colored 1 at: (7, 1, 3).
+, Circle colored 3 at: (8, 1, 2).
+, Circle colored 3 at: (9, 1, 1).
+, Circle colored 2 at: (8, 2, 1).
+, Circle colored 3 at: (7, 2, 2).
+, Circle colored 2 at: (7, 3, 1).
+, Circle colored 2 at: (6, 4, 1).
+, Circle colored 2 at: (5, 5, 1).
+, Circle colored 2 at: (4, 6, 1).
+, Circle colored 3 at: (3, 6, 2).
+, Circle colored 1 at: (3, 5, 3).
+, Circle colored 1 at: (2, 5, 4).
+, Circle colored 1 at: (1, 6, 4).
+, Circle colored 1 at: (1, 5, 5).
+, Circle colored 1 at: (1, 4, 6).
+, Circle colored 1 at: (2, 4, 5).
+, Circle colored 1 at: (1, 1, 9).
+, Circle colored 1 at: (2, 1, 8).
+, Circle colored 1 at: (3, 1, 7).
+, Circle colored 2 at: (3, 2, 6).
+, Circle colored 1 at: (4, 2, 5).
+, Circle colored 3 at: (5, 1, 5).
+, Circle colored 1 at: (4, 1, 6).
+, Circle colored 2 at: (1, 9, 1).
+, Circle colored 2 at: (1, 8, 2).
+, Circle colored 3 at: (2, 8, 1).
+, Circle colored 2 at: (2, 7, 2).
+, Circle colored 3 at: (2, 6, 3).
+, Circle colored 1 at: (1, 7, 3).
+]
+Default has won in 42 moves!
+Final board:
+                  [1   3]
+                [3   3   2]
+              [1   3   2   3]
+            [3   1   3   2   2]
+          [1   3   1   0   2   3]
+        [3   3   1   1   2   2   2]
+      [1   1   1   2   1   0   2   3]
+    [3   1   2   1   1   1   3   0   2]
+  [1   1   1   1   1   1   3   2   3   3]
+[3   1   2   1   1   1   1   1   2   2   2]
+  [1   2   1   2   1   2   1   2   1   2]
+Last Play: (1, 1, 7, 3)
+
+This will be a fantastic battle between Script and Default!
+                  [1   3]
+                [3   0   2]
+              [1   0   0   3]
+            [3   0   0   0   2]
+          [1   0   0   0   0   3]
+        [3   0   0   0   0   0   2]
+      [1   0   0   0   0   0   0   3]
+    [3   0   0   0   0   0   0   0   2]
+  [1   0   0   0   0   0   0   0   0   3]
+[3   0   0   0   0   0   0   0   0   0   2]
+  [1   2   1   2   1   2   1   2   1   2]
+Last Play: null
+
+Script will go first.
+The game had the following moves:
+[Circle colored 1 at: (1, 5, 5).
+, Circle colored 2 at: (1, 6, 4).
+, Circle colored 1 at: (2, 5, 4).
+, Circle colored 2 at: (2, 4, 5).
+, Circle colored 2 at: (3, 4, 4).
+, Circle colored 2 at: (3, 5, 3).
+, Circle colored 1 at: (4, 4, 3).
+, Circle colored 3 at: (5, 3, 3).
+, Circle colored 3 at: (6, 2, 3).
+, Circle colored 2 at: (6, 3, 2).
+, Circle colored 3 at: (5, 4, 2).
+, Circle colored 2 at: (5, 5, 1).
+, Circle colored 2 at: (4, 6, 1).
+, Circle colored 3 at: (3, 7, 1).
+, Circle colored 2 at: (2, 8, 1).
+, Circle colored 3 at: (2, 7, 2).
+, Circle colored 2 at: (1, 7, 3).
+, Circle colored 2 at: (2, 6, 3).
+, Circle colored 3 at: (3, 6, 2).
+, Circle colored 1 at: (4, 5, 2).
+]
+Script has won in 20 moves!
+Final board:
+                  [1   3]
+                [3   0   2]
+              [1   0   0   3]
+            [3   0   0   0   2]
+          [1   0   3   2   0   3]
+        [3   0   0   3   3   2   2]
+      [1   0   0   0   1   1   2   3]
+    [3   0   0   0   2   2   3   3   2]
+  [1   0   0   0   2   1   2   3   2   3]
+[3   0   0   0   0   1   2   2   0   0   2]
+  [1   2   1   2   1   2   1   2   1   2]
+Last Play: (1, 4, 5, 2)
+
+This will be a fantastic battle between Script and Default!
+                  [1   3]
+                [3   0   2]
+              [1   0   0   3]
+            [3   0   0   0   2]
+          [1   0   0   0   0   3]
+        [3   0   0   0   0   0   2]
+      [1   0   0   0   0   0   0   3]
+    [3   0   0   0   0   0   0   0   2]
+  [1   0   0   0   0   0   0   0   0   3]
+[3   0   0   0   0   0   0   0   0   0   2]
+  [1   2   1   2   1   2   1   2   1   2]
+Last Play: null
+
+Script will go first.
+The game had the following moves:
+[Circle colored 1 at: (1, 5, 5).
+, Circle colored 2 at: (1, 4, 6).
+, Circle colored 1 at: (2, 4, 5).
+, Circle colored 1 at: (2, 3, 6).
+, Circle colored 2 at: (3, 3, 5).
+, Circle colored 2 at: (4, 2, 5).
+, Circle colored 2 at: (4, 3, 4).
+, Circle colored 1 at: (5, 2, 4).
+, Circle colored 2 at: (5, 3, 3).
+, Circle colored 1 at: (5, 4, 2).
+, Circle colored 2 at: (6, 4, 1).
+, Circle colored 2 at: (7, 3, 1).
+, Circle colored 2 at: (6, 3, 2).
+, Circle colored 1 at: (6, 2, 3).
+, Circle colored 1 at: (7, 2, 2).
+, Circle colored 2 at: (8, 2, 1).
+, Circle colored 1 at: (8, 1, 2).
+, Circle colored 3 at: (7, 1, 3).
+, Circle colored 1 at: (6, 1, 4).
+, Circle colored 1 at: (5, 1, 5).
+, Circle colored 1 at: (4, 1, 6).
+, Circle colored 1 at: (3, 2, 6).
+, Circle colored 1 at: (2, 2, 7).
+, Circle colored 2 at: (1, 2, 8).
+, Circle colored 1 at: (1, 1, 9).
+, Circle colored 1 at: (2, 1, 8).
+, Circle colored 1 at: (3, 1, 7).
+, Circle colored 2 at: (1, 9, 1).
+, Circle colored 1 at: (1, 8, 2).
+, Circle colored 1 at: (1, 7, 3).
+, Circle colored 2 at: (1, 6, 4).
+, Circle colored 1 at: (2, 6, 3).
+, Circle colored 1 at: (2, 5, 4).
+, Circle colored 1 at: (3, 4, 4).
+, Circle colored 1 at: (4, 4, 3).
+, Circle colored 3 at: (3, 5, 3).
+, Circle colored 3 at: (4, 5, 2).
+, Circle colored 1 at: (3, 6, 2).
+, Circle colored 3 at: (4, 6, 1).
+, Circle colored 3 at: (3, 7, 1).
+, Circle colored 2 at: (2, 8, 1).
+, Circle colored 1 at: (2, 7, 2).
+]
+Script has won in 42 moves!
+Final board:
+                  [1   3]
+                [3   0   2]
+              [1   1   2   3]
+            [3   3   1   2   2]
+          [1   1   1   2   2   3]
+        [3   1   1   2   1   0   2]
+      [1   1   2   2   1   3   3   3]
+    [3   1   1   2   1   3   1   3   2]
+  [1   1   1   1   1   1   1   1   2   3]
+[3   1   2   0   2   1   2   1   1   2   2]
+  [1   2   1   2   1   2   1   2   1   2]
+Last Play: (1, 2, 7, 2)
+
+This will be a fantastic battle between Script and Default!
+                  [1   3]
+                [3   0   2]
+              [1   0   0   3]
+            [3   0   0   0   2]
+          [1   0   0   0   0   3]
+        [3   0   0   0   0   0   2]
+      [1   0   0   0   0   0   0   3]
+    [3   0   0   0   0   0   0   0   2]
+  [1   0   0   0   0   0   0   0   0   3]
+[3   0   0   0   0   0   0   0   0   0   2]
+  [1   2   1   2   1   2   1   2   1   2]
+Last Play: null
+
+Default will go first.
+The game had the following moves:
+[Circle colored 1 at: (6, 1, 4).
+, Circle colored 1 at: (7, 1, 3).
+, Circle colored 3 at: (7, 2, 2).
+, Circle colored 1 at: (6, 2, 3).
+, Circle colored 3 at: (5, 2, 4).
+, Circle colored 1 at: (4, 3, 4).
+, Circle colored 1 at: (3, 3, 5).
+, Circle colored 1 at: (3, 4, 4).
+, Circle colored 1 at: (2, 4, 5).
+, Circle colored 1 at: (1, 5, 5).
+, Circle colored 2 at: (1, 4, 6).
+, Circle colored 2 at: (1, 3, 7).
+, Circle colored 2 at: (2, 2, 7).
+, Circle colored 1 at: (2, 3, 6).
+, Circle colored 2 at: (3, 2, 6).
+, Circle colored 1 at: (4, 2, 5).
+, Circle colored 1 at: (4, 1, 6).
+, Circle colored 1 at: (3, 1, 7).
+, Circle colored 1 at: (2, 1, 8).
+, Circle colored 1 at: (1, 2, 8).
+, Circle colored 1 at: (1, 1, 9).
+, Circle colored 1 at: (1, 6, 4).
+, Circle colored 2 at: (1, 7, 3).
+, Circle colored 3 at: (2, 7, 2).
+, Circle colored 2 at: (1, 8, 2).
+, Circle colored 2 at: (1, 9, 1).
+, Circle colored 2 at: (2, 8, 1).
+, Circle colored 2 at: (3, 7, 1).
+, Circle colored 2 at: (3, 6, 2).
+, Circle colored 2 at: (4, 6, 1).
+, Circle colored 1 at: (4, 5, 2).
+, Circle colored 2 at: (5, 5, 1).
+, Circle colored 1 at: (5, 4, 2).
+, Circle colored 2 at: (6, 4, 1).
+, Circle colored 1 at: (6, 3, 2).
+, Circle colored 1 at: (5, 3, 3).
+, Circle colored 2 at: (4, 4, 3).
+, Circle colored 1 at: (3, 5, 3).
+, Circle colored 2 at: (2, 6, 3).
+, Circle colored 1 at: (2, 5, 4).
+, Circle colored 3 at: (9, 1, 1).
+, Circle colored 2 at: (8, 2, 1).
+, Circle colored 3 at: (8, 1, 2).
+, Circle colored 1 at: (5, 1, 5).
+, Circle colored 1 at: (7, 3, 1).
+]
+Script has won in 45 moves!
+Final board:
+                  [1   3]
+                [3   3   2]
+              [1   3   2   3]
+            [3   1   3   1   2]
+          [1   1   1   1   2   3]
+        [3   1   3   1   1   2   2]
+      [1   1   1   1   2   1   2   3]
+    [3   1   2   1   1   1   2   2   2]
+  [1   1   2   1   1   1   2   3   2   3]
+[3   1   1   2   2   1   1   2   2   2   2]
+  [1   2   1   2   1   2   1   2   1   2]
+Last Play: (1, 7, 3, 1)
+
+This will be a fantastic battle between Script and Default!
+                  [1   3]
+                [3   0   2]
+              [1   0   0   3]
+            [3   0   0   0   2]
+          [1   0   0   0   0   3]
+        [3   0   0   0   0   0   2]
+      [1   0   0   0   0   0   0   3]
+    [3   0   0   0   0   0   0   0   2]
+  [1   0   0   0   0   0   0   0   0   3]
+[3   0   0   0   0   0   0   0   0   0   2]
+  [1   2   1   2   1   2   1   2   1   2]
+Last Play: null
+
+Script will go first.
+The game had the following moves:
+[Circle colored 1 at: (1, 5, 5).
+, Circle colored 3 at: (2, 5, 4).
+, Circle colored 1 at: (3, 5, 3).
+, Circle colored 1 at: (3, 4, 4).
+, Circle colored 2 at: (4, 4, 3).
+, Circle colored 3 at: (5, 3, 3).
+, Circle colored 1 at: (5, 2, 4).
+, Circle colored 1 at: (5, 1, 5).
+, Circle colored 1 at: (6, 1, 4).
+, Circle colored 1 at: (6, 2, 3).
+, Circle colored 3 at: (6, 3, 2).
+, Circle colored 2 at: (7, 3, 1).
+, Circle colored 3 at: (7, 2, 2).
+, Circle colored 3 at: (8, 2, 1).
+, Circle colored 1 at: (8, 1, 2).
+, Circle colored 3 at: (9, 1, 1).
+, Circle colored 1 at: (1, 1, 9).
+, Circle colored 3 at: (2, 1, 8).
+, Circle colored 1 at: (1, 2, 8).
+, Circle colored 3 at: (2, 2, 7).
+, Circle colored 3 at: (3, 1, 7).
+, Circle colored 3 at: (4, 1, 6).
+, Circle colored 3 at: (4, 2, 5).
+, Circle colored 3 at: (3, 3, 5).
+, Circle colored 1 at: (3, 2, 6).
+, Circle colored 3 at: (2, 3, 6).
+, Circle colored 1 at: (1, 3, 7).
+, Circle colored 1 at: (1, 4, 6).
+, Circle colored 1 at: (2, 4, 5).
+, Circle colored 2 at: (6, 4, 1).
+, Circle colored 2 at: (5, 4, 2).
+, Circle colored 3 at: (5, 5, 1).
+, Circle colored 2 at: (4, 5, 2).
+, Circle colored 3 at: (4, 6, 1).
+, Circle colored 2 at: (3, 7, 1).
+, Circle colored 2 at: (3, 6, 2).
+, Circle colored 1 at: (2, 7, 2).
+, Circle colored 2 at: (1, 8, 2).
+, Circle colored 1 at: (1, 7, 3).
+, Circle colored 1 at: (1, 6, 4).
+, Circle colored 1 at: (2, 6, 3).
+, Circle colored 2 at: (2, 8, 1).
+, Circle colored 2 at: (1, 9, 1).
+, Circle colored 1 at: (7, 1, 3).
+, Circle colored 2 at: (4, 3, 4).
+]
+Default has won in 45 moves!
+Final board:
+                  [1   3]
+                [3   3   2]
+              [1   1   3   3]
+            [3   1   3   2   2]
+          [1   1   1   3   2   3]
+        [3   1   1   3   2   3   2]
+      [1   3   3   2   2   2   3   3]
+    [3   3   1   3   1   1   2   2   2]
+  [1   3   3   3   1   3   1   1   2   3]
+[3   1   1   1   1   1   1   1   2   2   2]
+  [1   2   1   2   1   2   1   2   1   2]
+Last Play: (2, 4, 3, 4)
+
+This will be a fantastic battle between Script and Default!
+                  [1   3]
+                [3   0   2]
+              [1   0   0   3]
+            [3   0   0   0   2]
+          [1   0   0   0   0   3]
+        [3   0   0   0   0   0   2]
+      [1   0   0   0   0   0   0   3]
+    [3   0   0   0   0   0   0   0   2]
+  [1   0   0   0   0   0   0   0   0   3]
+[3   0   0   0   0   0   0   0   0   0   2]
+  [1   2   1   2   1   2   1   2   1   2]
+Last Play: null
+
+Script will go first.
+The game had the following moves:
+[Circle colored 1 at: (1, 5, 5).
+, Circle colored 1 at: (1, 6, 4).
+, Circle colored 2 at: (2, 5, 4).
+, Circle colored 2 at: (3, 5, 3).
+, Circle colored 2 at: (4, 5, 2).
+, Circle colored 2 at: (4, 4, 3).
+, Circle colored 2 at: (5, 3, 3).
+, Circle colored 1 at: (5, 2, 4).
+, Circle colored 1 at: (6, 2, 3).
+, Circle colored 2 at: (7, 2, 2).
+, Circle colored 1 at: (6, 3, 2).
+, Circle colored 3 at: (6, 4, 1).
+, Circle colored 2 at: (5, 5, 1).
+, Circle colored 3 at: (4, 6, 1).
+, Circle colored 3 at: (3, 7, 1).
+, Circle colored 2 at: (3, 6, 2).
+, Circle colored 1 at: (2, 6, 3).
+, Circle colored 1 at: (1, 7, 3).
+, Circle colored 2 at: (2, 7, 2).
+, Circle colored 3 at: (2, 8, 1).
+, Circle colored 2 at: (1, 9, 1).
+, Circle colored 2 at: (1, 8, 2).
+, Circle colored 1 at: (1, 1, 9).
+, Circle colored 1 at: (1, 2, 8).
+, Circle colored 1 at: (2, 1, 8).
+, Circle colored 1 at: (3, 1, 7).
+, Circle colored 1 at: (4, 1, 6).
+, Circle colored 1 at: (5, 1, 5).
+, Circle colored 1 at: (4, 2, 5).
+, Circle colored 3 at: (3, 2, 6).
+, Circle colored 3 at: (2, 2, 7).
+, Circle colored 3 at: (2, 3, 6).
+, Circle colored 2 at: (1, 4, 6).
+, Circle colored 2 at: (2, 4, 5).
+, Circle colored 1 at: (3, 4, 4).
+, Circle colored 2 at: (4, 3, 4).
+, Circle colored 1 at: (3, 3, 5).
+]
+Default has won in 37 moves!
+Final board:
+                  [1   3]
+                [3   0   2]
+              [1   0   0   3]
+            [3   0   2   0   2]
+          [1   0   1   1   3   3]
+        [3   1   1   2   0   2   2]
+      [1   1   1   2   2   2   3   3]
+    [3   1   3   1   1   2   2   3   2]
+  [1   1   3   3   2   2   1   2   3   3]
+[3   1   1   0   2   1   1   1   2   2   2]
+  [1   2   1   2   1   2   1   2   1   2]
+Last Play: (1, 3, 3, 5)
+
+This will be a fantastic battle between Script and Default!
+                  [1   3]
+                [3   0   2]
+              [1   0   0   3]
+            [3   0   0   0   2]
+          [1   0   0   0   0   3]
+        [3   0   0   0   0   0   2]
+      [1   0   0   0   0   0   0   3]
+    [3   0   0   0   0   0   0   0   2]
+  [1   0   0   0   0   0   0   0   0   3]
+[3   0   0   0   0   0   0   0   0   0   2]
+  [1   2   1   2   1   2   1   2   1   2]
+Last Play: null
+
+Script will go first.
+The game had the following moves:
+[Circle colored 1 at: (1, 5, 5).
+, Circle colored 3 at: (2, 5, 4).
+, Circle colored 1 at: (3, 5, 3).
+, Circle colored 1 at: (4, 4, 3).
+, Circle colored 1 at: (5, 3, 3).
+, Circle colored 2 at: (6, 2, 3).
+, Circle colored 2 at: (6, 3, 2).
+, Circle colored 3 at: (7, 2, 2).
+, Circle colored 3 at: (8, 2, 1).
+, Circle colored 3 at: (8, 1, 2).
+, Circle colored 3 at: (7, 1, 3).
+, Circle colored 3 at: (6, 1, 4).
+, Circle colored 2 at: (5, 2, 4).
+, Circle colored 3 at: (4, 2, 5).
+, Circle colored 1 at: (3, 2, 6).
+, Circle colored 2 at: (2, 2, 7).
+, Circle colored 1 at: (1, 3, 7).
+, Circle colored 1 at: (1, 2, 8).
+, Circle colored 1 at: (1, 1, 9).
+, Circle colored 1 at: (2, 1, 8).
+, Circle colored 1 at: (3, 1, 7).
+, Circle colored 1 at: (4, 1, 6).
+, Circle colored 3 at: (5, 1, 5).
+, Circle colored 3 at: (7, 3, 1).
+, Circle colored 2 at: (6, 4, 1).
+, Circle colored 2 at: (5, 5, 1).
+, Circle colored 1 at: (5, 4, 2).
+, Circle colored 1 at: (4, 5, 2).
+, Circle colored 2 at: (4, 6, 1).
+, Circle colored 2 at: (3, 6, 2).
+, Circle colored 2 at: (3, 7, 1).
+, Circle colored 3 at: (2, 8, 1).
+, Circle colored 2 at: (1, 9, 1).
+, Circle colored 2 at: (1, 8, 2).
+, Circle colored 1 at: (1, 7, 3).
+, Circle colored 2 at: (2, 7, 2).
+, Circle colored 1 at: (2, 6, 3).
+, Circle colored 1 at: (1, 6, 4).
+, Circle colored 1 at: (1, 4, 6).
+, Circle colored 2 at: (2, 3, 6).
+, Circle colored 1 at: (3, 3, 5).
+, Circle colored 1 at: (3, 4, 4).
+, Circle colored 1 at: (2, 4, 5).
+, Circle colored 3 at: (9, 1, 1).
+, Circle colored 2 at: (4, 3, 4).
+]
+Default has won in 45 moves!
+Final board:
+                  [1   3]
+                [3   3   2]
+              [1   3   3   3]
+            [3   3   3   3   2]
+          [1   3   2   2   2   3]
+        [3   3   2   1   1   2   2]
+      [1   1   3   2   1   1   2   3]
+    [3   1   1   1   1   1   2   2   2]
+  [1   1   2   2   1   3   1   2   3   3]
+[3   1   1   1   1   1   1   1   2   2   2]
+  [1   2   1   2   1   2   1   2   1   2]
+Last Play: (2, 4, 3, 4)
+
+This will be a fantastic battle between Script and Default!
+              [1   3]
+            [3   0   2]
+          [1   0   0   3]
+        [3   0   0   0   2]
+      [1   0   0   0   0   3]
+    [3   0   0   0   0   0   2]
+  [1   0   0   0   0   0   0   3]
+[3   0   0   0   0   0   0   0   2]
+  [1   2   1   2   1   2   1   2]
+Last Play: null
+
+Default will go first.
+The game had the following moves:
+[Circle colored 1 at: (5, 1, 3).
+, Circle colored 1 at: (4, 2, 3).
+, Circle colored 3 at: (4, 3, 2).
+, Circle colored 1 at: (3, 3, 3).
+, Circle colored 3 at: (3, 4, 2).
+, Circle colored 2 at: (4, 4, 1).
+, Circle colored 3 at: (3, 5, 1).
+, Circle colored 2 at: (2, 6, 1).
+, Circle colored 2 at: (1, 6, 2).
+, Circle colored 2 at: (1, 5, 3).
+, Circle colored 1 at: (2, 4, 3).
+, Circle colored 2 at: (1, 4, 4).
+, Circle colored 2 at: (2, 3, 4).
+, Circle colored 1 at: (1, 3, 5).
+, Circle colored 2 at: (1, 2, 6).
+, Circle colored 1 at: (1, 1, 7).
+, Circle colored 1 at: (2, 1, 6).
+, Circle colored 1 at: (2, 2, 5).
+, Circle colored 1 at: (3, 1, 5).
+, Circle colored 1 at: (4, 1, 4).
+, Circle colored 2 at: (3, 2, 4).
+, Circle colored 2 at: (1, 7, 1).
+, Circle colored 1 at: (6, 1, 2).
+, Circle colored 3 at: (7, 1, 1).
+, Circle colored 3 at: (6, 2, 1).
+, Circle colored 2 at: (5, 3, 1).
+, Circle colored 3 at: (5, 2, 2).
+, Circle colored 2 at: (2, 5, 2).
+]
+Default has won in 28 moves!
+Final board:
+              [1   3]
+            [3   3   2]
+          [1   1   3   3]
+        [3   1   3   2   2]
+      [1   1   1   3   2   3]
+    [3   1   2   1   3   3   2]
+  [1   1   1   2   1   2   2   3]
+[3   1   2   1   2   2   2   2   2]
+  [1   2   1   2   1   2   1   2]
+Last Play: (2, 2, 5, 2)
+
+This will be a fantastic battle between Script and Default!
+              [1   3]
+            [3   0   2]
+          [1   0   0   3]
+        [3   0   0   0   2]
+      [1   0   0   0   0   3]
+    [3   0   0   0   0   0   2]
+  [1   0   0   0   0   0   0   3]
+[3   0   0   0   0   0   0   0   2]
+  [1   2   1   2   1   2   1   2]
+Last Play: null
+
+Script will go first.
+The game had the following moves:
+[Circle colored 1 at: (1, 4, 4).
+, Circle colored 3 at: (2, 3, 4).
+, Circle colored 3 at: (3, 3, 3).
+, Circle colored 2 at: (3, 4, 2).
+, Circle colored 2 at: (4, 4, 1).
+, Circle colored 3 at: (5, 3, 1).
+, Circle colored 2 at: (4, 3, 2).
+, Circle colored 3 at: (4, 2, 3).
+, Circle colored 3 at: (3, 2, 4).
+, Circle colored 2 at: (2, 2, 5).
+, Circle colored 1 at: (1, 2, 6).
+, Circle colored 1 at: (1, 1, 7).
+, Circle colored 1 at: (2, 1, 6).
+, Circle colored 1 at: (3, 1, 5).
+]
+Script has won in 14 moves!
+Final board:
+              [1   3]
+            [3   0   2]
+          [1   0   0   3]
+        [3   0   0   3   2]
+      [1   0   3   2   2   3]
+    [3   1   3   3   2   0   2]
+  [1   1   2   3   0   0   0   3]
+[3   1   1   0   1   0   0   0   2]
+  [1   2   1   2   1   2   1   2]
+Last Play: (1, 3, 1, 5)
+
+This will be a fantastic battle between Script and Default!
+              [1   3]
+            [3   0   2]
+          [1   0   0   3]
+        [3   0   0   0   2]
+      [1   0   0   0   0   3]
+    [3   0   0   0   0   0   2]
+  [1   0   0   0   0   0   0   3]
+[3   0   0   0   0   0   0   0   2]
+  [1   2   1   2   1   2   1   2]
+Last Play: null
+
+Script will go first.
+The game had the following moves:
+[Circle colored 1 at: (1, 4, 4).
+, Circle colored 1 at: (1, 3, 5).
+, Circle colored 2 at: (2, 3, 4).
+, Circle colored 1 at: (3, 2, 4).
+, Circle colored 1 at: (3, 3, 3).
+, Circle colored 2 at: (4, 3, 2).
+, Circle colored 1 at: (4, 2, 3).
+, Circle colored 1 at: (5, 2, 2).
+, Circle colored 3 at: (6, 2, 1).
+, Circle colored 1 at: (6, 1, 2).
+, Circle colored 1 at: (5, 1, 3).
+, Circle colored 1 at: (4, 1, 4).
+, Circle colored 1 at: (3, 1, 5).
+, Circle colored 1 at: (2, 1, 6).
+, Circle colored 1 at: (1, 1, 7).
+, Circle colored 1 at: (1, 2, 6).
+, Circle colored 1 at: (2, 2, 5).
+, Circle colored 3 at: (4, 4, 1).
+, Circle colored 2 at: (3, 5, 1).
+, Circle colored 3 at: (2, 5, 2).
+, Circle colored 2 at: (1, 6, 2).
+, Circle colored 2 at: (1, 7, 1).
+, Circle colored 3 at: (2, 6, 1).
+, Circle colored 1 at: (2, 4, 3).
+, Circle colored 1 at: (1, 5, 3).
+]
+Default has won in 25 moves!
+Final board:
+              [1   3]
+            [3   0   2]
+          [1   1   3   3]
+        [3   1   1   0   2]
+      [1   1   1   2   3   3]
+    [3   1   1   1   0   2   2]
+  [1   1   1   2   1   3   3   3]
+[3   1   1   1   1   1   2   2   2]
+  [1   2   1   2   1   2   1   2]
+Last Play: (1, 1, 5, 3)
+
+This will be a fantastic battle between Script and Default!
+              [1   3]
+            [3   0   2]
+          [1   0   0   3]
+        [3   0   0   0   2]
+      [1   0   0   0   0   3]
+    [3   0   0   0   0   0   2]
+  [1   0   0   0   0   0   0   3]
+[3   0   0   0   0   0   0   0   2]
+  [1   2   1   2   1   2   1   2]
+Last Play: null
+
+Default will go first.
+The game had the following moves:
+[Circle colored 1 at: (2, 4, 3).
+, Circle colored 1 at: (3, 3, 3).
+, Circle colored 1 at: (4, 3, 2).
+, Circle colored 1 at: (4, 2, 3).
+, Circle colored 2 at: (5, 2, 2).
+, Circle colored 2 at: (5, 3, 1).
+, Circle colored 2 at: (4, 4, 1).
+, Circle colored 1 at: (3, 4, 2).
+, Circle colored 3 at: (2, 5, 2).
+, Circle colored 1 at: (1, 5, 3).
+, Circle colored 1 at: (1, 6, 2).
+, Circle colored 3 at: (2, 6, 1).
+, Circle colored 1 at: (1, 7, 1).
+]
+Script has won in 13 moves!
+Final board:
+              [1   3]
+            [3   0   2]
+          [1   0   0   3]
+        [3   0   2   2   2]
+      [1   0   1   1   2   3]
+    [3   0   0   1   1   0   2]
+  [1   0   0   0   1   3   3   3]
+[3   0   0   0   0   1   1   1   2]
+  [1   2   1   2   1   2   1   2]
+Last Play: (1, 1, 7, 1)
+
+This will be a fantastic battle between Script and Default!
+              [1   3]
+            [3   0   2]
+          [1   0   0   3]
+        [3   0   0   0   2]
+      [1   0   0   0   0   3]
+    [3   0   0   0   0   0   2]
+  [1   0   0   0   0   0   0   3]
+[3   0   0   0   0   0   0   0   2]
+  [1   2   1   2   1   2   1   2]
+Last Play: null
+
+Script will go first.
+The game had the following moves:
+[Circle colored 1 at: (1, 4, 4).
+, Circle colored 1 at: (1, 5, 3).
+, Circle colored 2 at: (2, 4, 3).
+, Circle colored 1 at: (2, 5, 2).
+, Circle colored 2 at: (3, 5, 1).
+, Circle colored 3 at: (4, 4, 1).
+, Circle colored 2 at: (3, 4, 2).
+, Circle colored 3 at: (3, 3, 3).
+, Circle colored 1 at: (3, 2, 4).
+, Circle colored 1 at: (2, 2, 5).
+, Circle colored 1 at: (1, 3, 5).
+, Circle colored 2 at: (1, 2, 6).
+, Circle colored 1 at: (1, 1, 7).
+, Circle colored 1 at: (2, 1, 6).
+, Circle colored 1 at: (3, 1, 5).
+, Circle colored 3 at: (4, 1, 4).
+, Circle colored 1 at: (5, 1, 3).
+, Circle colored 3 at: (4, 2, 3).
+, Circle colored 2 at: (4, 3, 2).
+, Circle colored 3 at: (5, 2, 2).
+, Circle colored 2 at: (5, 3, 1).
+, Circle colored 2 at: (6, 2, 1).
+, Circle colored 3 at: (6, 1, 2).
+, Circle colored 3 at: (7, 1, 1).
+, Circle colored 1 at: (1, 6, 2).
+, Circle colored 2 at: (1, 7, 1).
+, Circle colored 2 at: (2, 6, 1).
+, Circle colored 1 at: (2, 3, 4).
+]
+Script has won in 28 moves!
+Final board:
+              [1   3]
+            [3   3   2]
+          [1   3   2   3]
+        [3   1   3   2   2]
+      [1   3   3   2   3   3]
+    [3   1   1   3   2   2   2]
+  [1   1   1   1   2   1   2   3]
+[3   1   2   1   1   1   1   2   2]
+  [1   2   1   2   1   2   1   2]
+Last Play: (1, 2, 3, 4)
+
+This will be a fantastic battle between Script and Default!
+              [1   3]
+            [3   0   2]
+          [1   0   0   3]
+        [3   0   0   0   2]
+      [1   0   0   0   0   3]
+    [3   0   0   0   0   0   2]
+  [1   0   0   0   0   0   0   3]
+[3   0   0   0   0   0   0   0   2]
+  [1   2   1   2   1   2   1   2]
+Last Play: null
+
+Script will go first.
+The game had the following moves:
+[Circle colored 1 at: (1, 4, 4).
+, Circle colored 2 at: (2, 4, 3).
+, Circle colored 2 at: (3, 4, 2).
+, Circle colored 2 at: (3, 5, 1).
+, Circle colored 2 at: (4, 4, 1).
+, Circle colored 3 at: (4, 3, 2).
+, Circle colored 2 at: (5, 3, 1).
+, Circle colored 3 at: (6, 2, 1).
+, Circle colored 3 at: (5, 2, 2).
+, Circle colored 1 at: (5, 1, 3).
+, Circle colored 3 at: (4, 2, 3).
+, Circle colored 3 at: (4, 1, 4).
+, Circle colored 2 at: (3, 2, 4).
+, Circle colored 1 at: (2, 3, 4).
+, Circle colored 1 at: (1, 3, 5).
+, Circle colored 2 at: (1, 2, 6).
+, Circle colored 1 at: (1, 1, 7).
+, Circle colored 1 at: (2, 1, 6).
+, Circle colored 2 at: (2, 2, 5).
+, Circle colored 1 at: (3, 1, 5).
+]
+Script has won in 20 moves!
+Final board:
+              [1   3]
+            [3   0   2]
+          [1   0   3   3]
+        [3   1   3   2   2]
+      [1   3   3   3   2   3]
+    [3   1   2   0   2   2   2]
+  [1   1   2   1   2   0   0   3]
+[3   1   2   1   1   0   0   0   2]
+  [1   2   1   2   1   2   1   2]
+Last Play: (1, 3, 1, 5)
+
+This will be a fantastic battle between Script and Default!
+              [1   3]
+            [3   0   2]
+          [1   0   0   3]
+        [3   0   0   0   2]
+      [1   0   0   0   0   3]
+    [3   0   0   0   0   0   2]
+  [1   0   0   0   0   0   0   3]
+[3   0   0   0   0   0   0   0   2]
+  [1   2   1   2   1   2   1   2]
+Last Play: null
+
+Script will go first.
+The game had the following moves:
+[Circle colored 1 at: (1, 4, 4).
+, Circle colored 2 at: (1, 5, 3).
+, Circle colored 1 at: (2, 4, 3).
+, Circle colored 2 at: (2, 5, 2).
+, Circle colored 2 at: (3, 4, 2).
+, Circle colored 3 at: (4, 4, 1).
+, Circle colored 2 at: (3, 5, 1).
+, Circle colored 3 at: (2, 6, 1).
+, Circle colored 2 at: (1, 7, 1).
+, Circle colored 2 at: (1, 6, 2).
+, Circle colored 1 at: (1, 1, 7).
+, Circle colored 1 at: (1, 2, 6).
+, Circle colored 2 at: (1, 3, 5).
+, Circle colored 1 at: (2, 3, 4).
+, Circle colored 1 at: (3, 3, 3).
+, Circle colored 1 at: (3, 2, 4).
+, Circle colored 1 at: (4, 2, 3).
+, Circle colored 3 at: (5, 1, 3).
+, Circle colored 3 at: (6, 1, 2).
+, Circle colored 2 at: (6, 2, 1).
+, Circle colored 2 at: (5, 3, 1).
+, Circle colored 3 at: (5, 2, 2).
+, Circle colored 1 at: (4, 3, 2).
+]
+Default has won in 23 moves!
+Final board:
+              [1   3]
+            [3   0   2]
+          [1   3   2   3]
+        [3   3   3   2   2]
+      [1   0   1   1   3   3]
+    [3   0   1   1   2   2   2]
+  [1   0   0   1   1   2   3   3]
+[3   1   1   2   1   2   2   2   2]
+  [1   2   1   2   1   2   1   2]
+Last Play: (1, 4, 3, 2)
+
+This will be a fantastic battle between Script and Default!
+              [1   3]
+            [3   0   2]
+          [1   0   0   3]
+        [3   0   0   0   2]
+      [1   0   0   0   0   3]
+    [3   0   0   0   0   0   2]
+  [1   0   0   0   0   0   0   3]
+[3   0   0   0   0   0   0   0   2]
+  [1   2   1   2   1   2   1   2]
+Last Play: null
+
+Default will go first.
+The game had the following moves:
+[Circle colored 3 at: (3, 1, 5).
+, Circle colored 1 at: (4, 1, 4).
+, Circle colored 1 at: (4, 2, 3).
+, Circle colored 3 at: (3, 2, 4).
+, Circle colored 3 at: (2, 2, 5).
+, Circle colored 1 at: (1, 3, 5).
+, Circle colored 1 at: (1, 2, 6).
+, Circle colored 1 at: (1, 1, 7).
+, Circle colored 1 at: (2, 1, 6).
+, Circle colored 1 at: (1, 4, 4).
+, Circle colored 1 at: (2, 4, 3).
+, Circle colored 1 at: (1, 5, 3).
+, Circle colored 1 at: (1, 6, 2).
+, Circle colored 3 at: (2, 6, 1).
+, Circle colored 1 at: (2, 5, 2).
+, Circle colored 3 at: (3, 5, 1).
+, Circle colored 3 at: (3, 4, 2).
+, Circle colored 2 at: (4, 4, 1).
+, Circle colored 3 at: (4, 3, 2).
+, Circle colored 2 at: (5, 3, 1).
+, Circle colored 2 at: (6, 2, 1).
+, Circle colored 3 at: (5, 2, 2).
+, Circle colored 3 at: (5, 1, 3).
+, Circle colored 3 at: (6, 1, 2).
+, Circle colored 3 at: (7, 1, 1).
+, Circle colored 1 at: (2, 3, 4).
+, Circle colored 1 at: (3, 3, 3).
+, Circle colored 2 at: (1, 7, 1).
+]
+Default has won in 28 moves!
+Final board:
+              [1   3]
+            [3   3   2]
+          [1   3   2   3]
+        [3   3   3   2   2]
+      [1   1   1   3   2   3]
+    [3   3   3   1   3   3   2]
+  [1   1   3   1   1   1   3   3]
+[3   1   1   1   1   1   1   2   2]
+  [1   2   1   2   1   2   1   2]
+Last Play: (2, 1, 7, 1)
+
+This will be a fantastic battle between Script and Default!
+              [1   3]
+            [3   0   2]
+          [1   0   0   3]
+        [3   0   0   0   2]
+      [1   0   0   0   0   3]
+    [3   0   0   0   0   0   2]
+  [1   0   0   0   0   0   0   3]
+[3   0   0   0   0   0   0   0   2]
+  [1   2   1   2   1   2   1   2]
+Last Play: null
+
+Script will go first.
+The game had the following moves:
+[Circle colored 1 at: (1, 4, 4).
+, Circle colored 1 at: (1, 3, 5).
+, Circle colored 2 at: (2, 3, 4).
+, Circle colored 2 at: (3, 2, 4).
+, Circle colored 1 at: (3, 3, 3).
+, Circle colored 2 at: (2, 4, 3).
+, Circle colored 2 at: (3, 4, 2).
+, Circle colored 2 at: (3, 5, 1).
+, Circle colored 2 at: (4, 4, 1).
+, Circle colored 1 at: (4, 3, 2).
+, Circle colored 2 at: (5, 3, 1).
+, Circle colored 3 at: (6, 2, 1).
+, Circle colored 2 at: (5, 2, 2).
+, Circle colored 3 at: (5, 1, 3).
+, Circle colored 2 at: (4, 2, 3).
+, Circle colored 3 at: (4, 1, 4).
+, Circle colored 3 at: (3, 1, 5).
+, Circle colored 1 at: (2, 1, 6).
+, Circle colored 1 at: (1, 2, 6).
+, Circle colored 1 at: (1, 1, 7).
+, Circle colored 1 at: (1, 5, 3).
+, Circle colored 2 at: (2, 5, 2).
+, Circle colored 1 at: (1, 6, 2).
+, Circle colored 2 at: (2, 6, 1).
+, Circle colored 2 at: (1, 7, 1).
+, Circle colored 3 at: (6, 1, 2).
+, Circle colored 2 at: (7, 1, 1).
+]
+Default has won in 27 moves!
+Final board:
+              [1   3]
+            [3   2   2]
+          [1   3   3   3]
+        [3   3   2   2   2]
+      [1   3   2   1   2   3]
+    [3   3   2   1   2   2   2]
+  [1   1   0   2   2   2   2   3]
+[3   1   1   1   1   1   1   2   2]
+  [1   2   1   2   1   2   1   2]
+Last Play: (2, 7, 1, 1)
+
+This will be a fantastic battle between Script and Default!
+              [1   3]
+            [3   0   2]
+          [1   0   0   3]
+        [3   0   0   0   2]
+      [1   0   0   0   0   3]
+    [3   0   0   0   0   0   2]
+  [1   0   0   0   0   0   0   3]
+[3   0   0   0   0   0   0   0   2]
+  [1   2   1   2   1   2   1   2]
+Last Play: null
+
+Default will go first.
+The game had the following moves:
+[Circle colored 3 at: (4, 2, 3).
+, Circle colored 1 at: (3, 3, 3).
+, Circle colored 2 at: (2, 4, 3).
+, Circle colored 1 at: (3, 4, 2).
+, Circle colored 3 at: (4, 3, 2).
+, Circle colored 3 at: (4, 4, 1).
+, Circle colored 3 at: (3, 5, 1).
+, Circle colored 2 at: (2, 6, 1).
+, Circle colored 1 at: (1, 6, 2).
+, Circle colored 1 at: (1, 5, 3).
+, Circle colored 2 at: (1, 4, 4).
+, Circle colored 2 at: (1, 3, 5).
+, Circle colored 2 at: (2, 3, 4).
+, Circle colored 1 at: (2, 2, 5).
+, Circle colored 1 at: (3, 1, 5).
+, Circle colored 1 at: (3, 2, 4).
+, Circle colored 3 at: (4, 1, 4).
+, Circle colored 1 at: (5, 1, 3).
+, Circle colored 3 at: (6, 1, 2).
+, Circle colored 3 at: (7, 1, 1).
+, Circle colored 2 at: (6, 2, 1).
+, Circle colored 2 at: (5, 3, 1).
+, Circle colored 3 at: (5, 2, 2).
+, Circle colored 1 at: (1, 1, 7).
+, Circle colored 1 at: (1, 2, 6).
+, Circle colored 1 at: (2, 1, 6).
+, Circle colored 2 at: (1, 7, 1).
+, Circle colored 2 at: (2, 5, 2).
+]
+Default has won in 28 moves!
+Final board:
+              [1   3]
+            [3   3   2]
+          [1   3   2   3]
+        [3   1   3   2   2]
+      [1   3   3   3   3   3]
+    [3   1   1   1   1   3   2]
+  [1   1   1   2   2   2   2   3]
+[3   1   1   2   2   1   1   2   2]
+  [1   2   1   2   1   2   1   2]
+Last Play: (2, 2, 5, 2)
+

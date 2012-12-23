@@ -1,0 +1,19 @@
+----------------------------------------------------------------
+-- Computer Science 320 (Fall, 2009)
+-- Concepts of Programming Languages
+--
+-- Assignments 6, 7, and 8
+--   tests6.mhs
+
+----------------------------------------------------------------
+-- Test code for mini-Haskell Interpreter
+
+----------------------------------------------------------------
+-- Simple test code for the compiler that should evaluate to 8.
+
+let x = 4 + 4 in
+let y = x * x in
+let z = if False then (if True then 1 else 2) else 3 in
+   head ( head (tail ((y : z: []) : (x : y : z : []) : [])))
+
+--eof

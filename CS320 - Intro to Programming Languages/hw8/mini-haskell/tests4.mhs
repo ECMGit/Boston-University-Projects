@@ -1,0 +1,88 @@
+----------------------------------------------------------------
+-- Computer Science 320 (Fall, 2009)
+-- Concepts of Programming Languages
+--
+-- Assignments 6, 7, and 8
+--   tests4.mhs
+
+----------------------------------------------------------------
+-- Test code for Mini-Haskell Interpreter
+
+----------------------------------------------------------------
+-- This program lists all the prime numbers between 0 and 20.
+-- This program is too complex for our type checking algorithm
+-- to process within a reasonable amount of time, but it should
+-- work under the call-by-value evaluation rules.
+
+-- The monomorphic type system for Mini-Haskell is not capable
+-- of type checking the lambda expression for a fixed point
+-- operator, but a finite approximation of the operator can be
+-- simulated (one for each distinct type for which it is used).
+-- This program uses a collection of finite approximations of the
+-- fixed point operator to compute the first 20 prime numbers.
+-- Note that it is a bit slow.
+
+let fix20 = \f->\g->f(f(f(f(f(f(f(f(f(f(f(f(f(f(f(f(f(f(f g)
+                                           ))))))))))))))))) in
+let fix20' = \f->\g->f(f(f(f(f(f(f(f(f(f(f(f(f(f(f(f(f(f(f g)
+                                           ))))))))))))))))) in
+let fix20'' = \f->\g->f(f(f(f(f(f(f(f(f(f(f(f(f(f(f(f(f(f(f g)
+                                           ))))))))))))))))) in
+
+  -- Try all products of count*m for fixed m
+  -- and count running up to max, and see if they
+  -- equal target; if they ever do equal target, return
+  -- false, otherwise, keep going.
+
+let tryProdsBas = \target -> \max -> \count -> \m -> True in
+let tryProdsInd = \tryProds ->
+                  \target -> \max -> \count -> \m ->
+                    if count == max then
+                      True
+                    else if target == count * m then 
+                      False
+                    else
+                      tryProds target max (count + 1) m in
+
+  -- This is the fixed point of "tryProdsInd".
+let  tryProds = fix20 tryProdsInd tryProdsBas in
+
+  -- Call tryProds for every value up to a maximum value,
+  -- and return True only if tryProds always returns True.
+
+let  tryEachMBas = \target -> \max -> \count -> True in
+let  tryEachMInd = \tryEachM -> 
+                   \target -> \max -> \count ->
+                     if count == max then
+                       True
+                     else
+                       tryProds target target 0 count
+                         && tryEachM target max (count + 1) in
+
+
+  -- This is the fixed point of "tryEachMInd".
+let  tryEachM = fix20' tryEachMInd tryEachMBas in
+
+  -- This functions lists all the primes up to 'max'.
+
+let listPrimesBas = \max -> \count -> [] in
+let listPrimesInd = \listPrimes ->
+                     \max -> \count ->
+                    if count == max then 
+                      []
+                    else if tryEachM count count 0 then
+                      count : listPrimes max (count + 1)
+                      else
+                        listPrimes max (count + 1) in
+
+  -- This is the fixed point of "listPrimesInd".
+let  listPrimes = fix20'' listPrimesInd listPrimesBas in
+
+   -- We list all the primes between 2 and 20 (very slowly).
+   -- Replacing 20 with any lower value should limit
+   -- the displayed list to only those primes lower than that
+   -- value.
+
+  listPrimes 20 2
+
+--eof

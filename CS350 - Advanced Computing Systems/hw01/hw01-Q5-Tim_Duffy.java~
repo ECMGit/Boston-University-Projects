@@ -1,0 +1,32 @@
+import java.util.Random;
+import static java.lang.Math.*;
+import java.io.*;
+import java.util.Scanner;
+
+class hw01-Q5-Tim_Duffy {
+    public static void main(String[] args) {
+      // Random number generator
+      Random rndm = new Random();
+            
+      Scanner console = new Scanner(System.in);
+      System.out.println("Please enter an integer value for the mean of the exponential distribution");
+      Double mean = console.nextDouble();
+      Double lambda = 1.0/mean;
+      Double sum = 0.0;
+      
+      for(int i = 1; i <= 100; i++){
+        /*The Random class, along with the nextFloat function returns the next
+       * pseudorandom, uniformly distributed float value between 0.0 and 1.0 
+       * from this random number generator's sequence */
+        Double U = rndm.nextDouble();
+        Double V = (-1* log(1-U)) / lambda;
+
+        System.out.println(V);
+        sum += V;
+      }
+      
+      System.out.print("The mean of these 100 numbers is actually "); 
+      System.out.println(sum/100);
+      
+    }
+}

@@ -1,0 +1,411 @@
+Reuters/C-SPAN/Zogby	10/14	44	49	8
+DailyKos.com (D)	10/14	42	52	1
+Rasmussen	10/14	46	50	-
+Diageo/Hotline	10/14	40	50	7
+Gallup	10/14	45	51	4
+GWU (Lake/Tarrance)	10/12	45	49	6
+IBD/TIPP	10/11	42	45	13
+DailyKos.com (D)	10/11	41	52	2
+Rasmussen	10/11	45	50	-
+Diageo/Hotline	10/11	42	48	7
+Gallup	10/11	43	53	4
+ARG	10/11	45	50	5
+Reuters/C-SPAN/Zogby	10/10	43	49	8
+CBS/Times	10/10	39	53	7
+Times/Bloomberg	10/10	41	50	7
+Ipsos/McClatchy	10/9	39	48	10
+USA Today/Gallup	10/10	45	52	2
+Pew	10/9	42	49	9
+Democracy Corps (D)	10/8	40	50	5
+ABC/Post	10/8	43	53	2
+DailyKos.com (D)	10/8	40	52	2
+Rasmussen	10/8	45	52	-
+Diageo/Hotline	10/8	40	50	7
+Gallup	10/8	42	51	6
+FOX	10/8	39	46	11
+Newsweek	10/8	41	52	6
+Reuters/C-SPAN/Zogby	10/6	43	48	9
+GWU (Lake/Tarrance)	10/6	43	51	6
+DailyKos.com (D)	10/5	41	51	2
+Rasmussen	10/5	45	51	-
+Diageo/Hotline	10/5	44	45	9
+Gallup	10/5	41	52	7
+ARG	10/4	45	49	6
+Economist/YouGov	10/4	43	46	6
+Time	10/3	43	48	7
+Ipsos/McClatchy	10/2	40	47	9
+NBC/WSJ	10/4	43	49	5
+CNN	10/3	45	53	2
+CBS	10/3	45	48	9
+Democracy Corps (D)	10/1	45	48	1
+GWU (Lake/Tarrance)	9/30	43	50	7
+DailyKos.com (D)	10/2	40	52	2
+Rasmussen	10/2	44	51	-
+Diageo/Hotline	10/2	41	48	9
+Gallup	10/2	43	50	8
+Zogby (Internet)	10/2	44	48	8
+DailyKos.com (D)	9/29	40	51	3
+Rasmussen	9/29	44	51	3
+Diageo/Hotline	9/29	42	47	10
+Gallup	9/29	43	48	9
+Democracy Corps (D)	9/28	45	49	2
+Marist College	9/28	44	49	6
+AP-Gfk	9/27	41	48	3
+CBS	9/27	41	50	8
+ARG	9/27	45	49	6
+ABC/Post	9/27	46	50	2
+Pew	9/27	43	49	8
+Economist/YouGov	9/27	42	47	6
+Time	9/26	43	50	5
+Ipsos/McClatchy	9/26	42	46	9
+DailyKos.com (D)	9/26	42	51	2
+Rasmussen	9/26	45	50	-
+Diageo/Hotline	9/26	42	47	8
+Gallup	9/26	42	50	8
+GWU (Lake/Tarrance)	9/22	48	46	6
+Zogby (Internet)	9/26	46	47	7
+Zogby (Internet)	9/23	46	44	10
+Rasmussen	9/23	45	50	-
+DailyKos.com (D)	9/23	43	48	2
+Gallup	9/23	45	48	6
+Diageo/Hotline	9/23	42	49	7
+Democracy Corps (D)	9/22	44	47	2
+Economist/YouGov	9/22	43	46	7
+CBS/Times	9/21	43	48	8
+FOX	9/22	39	45	13
+WNBC/Marist	9/22	43	47	8
+DailyKos.com (D)	9/20	43	49	2
+Rasmussen	9/20	48	48	-
+ARG	9/20	46	48	6
+Gallup	9/20	44	47	8
+Diageo/Hotline	9/20	43	47	9
+ABC/Post	9/19	43	52	3
+Times/Bloomberg	9/19	45	49	5
+Ipsos/McClatchy	9/18	43	44	9
+Harris Interactive	9/15	46	47	3
+NBC/WSJ	9/12	46	48	4
+CNN	9/19	47	51	3
+Franklin & Marshall	9/15	47	45	-
+GWU (Lake/Tarrance)	9/14	48	47	6
+Zogby (Internet)	9/19	43	47	9
+Rasmussen	9/17	47	48	-
+Diageo/Hotline	9/17	44	45	8
+DailyKos.com (D)	9/17	42	50	2
+Gallup	9/17	44	50	6
+Big Ten	9/14	45	46	8
+Economist/YouGov	9/15	45	43	10
+Diageo/Hotline	9/14	42	45	9
+DailyKos.com (D)	9/14	44	48	2
+Gallup	9/14	45	47	8
+Rasmussen	9/14	48	47	-
+CBS/Times	9/12	44	49	6
+Quinnipiac	9/11	45	49	5
+ARG	9/13	48	45	7
+Ipsos/McClatchy	9/11	45	45	2
+ABC/USA Today/Col	9/11	45	47	4
+Pew	9/9	46	46	8
+Gallup	9/11	47	45	7
+DailyKos.com (D)	9/11	45	47	3
+Diageo/Hotline	9/11	43	45	10
+Reuters/Zogby	9/11	45	47	8
+Rasmussen	9/11	50	47	-
+Newsweek	9/10	46	46	8
+GWU (Lake/Tarrance)	9/7	48	44	5
+Democracy Corps (D)	9/8	48	46	1
+Diageo/Hotline	9/8	46	44	8
+DailyKos.com (D)	9/8	45	47	3
+Rasmussen	9/8	48	48	-
+Gallup	9/8	48	44	7
+AP-Gfk	9/5	48	44	3
+FOX	9/8	45	42	14
+Economist/YouGov	9/7	40	41	14
+Ipsos/McClatchy	9/5	46	45	2
+InsiderAdvantage	9/8	46	46	6
+ARG	9/6	46	47	7
+NBC/WSJ	9/6	46	47	5
+Public Opin Str (R)	9/6	46	43	6
+USA Today/Gallup	9/5	54	44	2
+Diageo/Hotline	9/5	44	44	10
+CNN	9/5	48	48	3
+Gallup	9/5	49	44	6
+ABC/Post	9/5	49	47	3
+Rasmussen	9/5	48	47	-
+IBD/TIPP	9/2	40	45	13
+Zogby (Internet)	9/5	50	46	4
+Gallup	9/2	44	48	8
+Diageo/Hotline	9/2	40	46	10
+Rasmussen	9/2	46	48	-
+Democracy Corps (D)	9/1	44	49	0
+CBS	9/1	42	42	13
+Economist/YouGov	9/1	39	42	13
+ARG	8/30	43	49	8
+Gallup	8/30	42	50	8
+Rasmussen	8/30	45	51	-
+CNN	8/29	48	49	2
+CBS	8/29	40	48	11
+Diageo/Hotline	8/29	39	48	8
+Zogby (Internet)	8/29	47	45	8
+Rasmussen	8/28	46	49	-
+Gallup	8/27	41	49	9
+Rasmussen	8/25	47	47	-
+Economist/YouGov	8/25	36	41	18
+Gallup	8/24	44	45	9
+CNN	8/23	47	47	5
+Zogby (Internet)	8/23	44	46	-
+Rasmussen	8/22	45	48	-
+Diageo/Hotline	8/18	40	44	16
+Gallup	8/21	45	45	9
+USA Today/Gallup	8/21	45	48	-
+ABC/Post	8/19	45	49	4
+Rasmussen	8/19	46	47	-
+FOX	8/19	39	42	19
+Economist/YouGov	8/18	38	39	16
+Gallup	8/18	44	45	9
+CBS/Times	8/15	42	45	12
+Rasmussen	8/16	45	47	-
+Times/Bloomberg	8/15	43	45	10
+NBC/WSJ	8/15	42	45	9
+Gallup	8/15	43	46	10
+Quinnipiac	8/12	42	47	9
+Zogby/Reuters	8/14	46	41	13
+Rasmussen	8/13	45	46	-
+Zogby (Internet)	8/12	42	44	14
+Gallup	8/12	44	44	11
+GWU (Lake/Tarrance)	8/10	47	46	7
+Economist/YouGov	8/11	40	41	12
+Rasmussen	8/10	46	48	-
+Gallup	8/9	42	47	10
+Pew	7/31	43	46	11
+Rasmussen	8/7	46	48	-
+IBD/TIPP	8/4	38	43	19
+Gallup	8/6	42	47	10
+Harris Interactive	8/1	38	47	7
+Sacred Heart U	7/28	27	38	13
+Rasmussen	8/4	46	47	-
+Economist/YouGov	8/4	39	42	13
+Gallup	8/3	44	46	10
+CBS	7/31	39	45	15
+AP-Ipsos	7/31	41	47	3
+Time	7/31	41	46	10
+Rasmussen	8/1	47	46	-
+Gallup	7/31	44	45	11
+Zogby	7/31	42	41	13
+Rasmussen	7/29	46	47	-
+Gallup	7/28	44	45	12
+Economist/YouGov	7/28	37	44	14
+CNN	7/27	44	51	4
+Rasmussen	7/26	46	47	-
+Research 2000	7/25	39	51	5
+Gallup	7/25	40	48	10
+USA Today/Gallup	7/25	49	45	5
+Pew	7/23	42	47	11
+Rasmussen	7/23	43	49	-
+Economist/YouGov	7/22	38	41	14
+Gallup	7/22	41	47	11
+Democracy Corps (D)	7/21	43	49	2
+FOX	7/22	37	40	17
+Rasmussen	7/20	45	47	-
+Gallup	7/19	42	45	12
+NBC/WSJ	7/18	41	47	8
+Rasmussen	7/17	45	47	-
+Gallup	7/16	43	45	10
+Economist/YouGov	7/15	36	41	13
+Rasmussen	7/14	46	46	-
+Gallup	7/13	44	47	9
+CBS/Times	7/7	39	45	14
+Rasmussen	7/11	46	47	-
+ABC/Post	7/10	46	49	2
+Zogby/Reuters	7/9	40	47	10
+Quinnipiac	7/8	41	50	7
+Gallup	7/10	43	46	10
+IBD/TIPP	7/7	37	40	18
+Harris Interactive	7/3	35	44	16
+Newsweek	7/9	41	44	15
+Rasmussen	7/8	45	47	-
+Gallup	7/7	43	46	10
+Economist/YouGov	7/7	38	39	14
+Rasmussen	7/2	43	49	-
+Gallup	7/3	43	47	10
+Economist/YouGov	7/1	34	37	17
+Gallup	6/30	43	47	10
+Rasmussen	6/29	44	49	-
+Gallup	6/26	42	47	10
+CNN	6/26	45	50	5
+McLaughlin (R)	6/26	38	46	16
+Pew	6/18	40	48	12
+Rasmussen	6/26	43	49	-
+Rasmussen	6/23	45	49	-
+Gallup	6/23	44	44	11
+Economist/YouGov	6/23	34	36	17
+Democracy Corps (D)	6/22	45	49	3
+Time	6/18	43	47	8
+Times/Bloomberg	6/19	37	49	10
+Rasmussen	6/20	43	49	-
+Gallup	6/20	43	46	9
+Franklin & Marshall	6/16	36	42	15
+Newsweek	6/18	36	51	13
+Rasmussen	6/17	44	48	-
+Gallup	6/16	44	46	9
+USA Today/Gallup	6/15	44	50	-
+FOX	6/17	39	42	14
+Economist/YouGov	6/16	34	37	16
+Rasmussen	6/14	44	48	-
+Gallup	6/13	42	46	12
+Cook/RT	6/12	40	44	15
+ABC/Post	6/12	48	47	2
+Zogby/Reuters	6/12	42	47	12
+Rasmussen	6/11	43	49	-
+Harris Interactive	6/5	32	42	12
+Gallup	6/10	43	46	10
+Economist/YouGov	6/10	33	37	15
+AP-Ipsos	6/5	43	50	1
+Rasmussen	6/8	44	49	-
+Gallup	6/7	41	48	10
+NBC/WSJ	6/6	41	47	8
+Diageo/Hotline	6/5	42	44	11
+IBD/TIPP	6/2	40	43	17
+Rasmussen	6/5	43	50	-
+Gallup	6/2	45	46	8
+CNN	6/4	46	49	5
+Rasmussen	6/2	45	47	-
+CBS	5/30	42	48	9
+USA Today/Gallup	5/30	44	49	-
+Rasmussen	5/29	45	45	-
+Gallup	5/28	46	46	7
+Cook/RT	5/29	43	44	10
+Economist/YouGov	5/27	48	38	15
+Lombardo (R)	5/26	40	44	-
+Rasmussen	5/25	47	42	-
+Gallup	5/22	46	45	8
+Democracy Corps (D)	5/19	47	47	3
+Pew	5/21	44	47	9
+Rasmussen	5/21	46	44	-
+Newsweek	5/21	46	46	8
+Economist/YouGov	5/20	41	43	16
+Gallup	5/17	44	47	7
+Rasmussen	5/17	45	44	-
+Harris Interactive	5/8	35	39	11
+Zogby	5/15	40	48	-
+IBD/TIPP	5/12	37	48	15
+Rasmussen	5/13	45	44	-
+Gallup	5/12	47	44	8
+Economist/YouGov	5/14	42	39	19
+GWU (Lake/Tarrance)	5/11	47	49	5
+Democracy Corps (D)	5/13	46	48	4
+Rasmussen	5/9	46	47	-
+Quinnipiac	5/8	40	47	8
+ABC/Post	5/8	44	51	1
+Gallup	5/7	43	47	8
+NPR	5/7	43	48	5
+Rasmussen	5/5	44	47	-
+Times/Bloomberg	5/1	40	46	9
+Economist/YouGov	5/5	46	39	15
+Gallup	5/2	45	46	9
+Rasmussen	5/1	47	43	-
+AP-Ipsos	4/30	42	46	3
+USA Today/Gallup	5/1	48	47	4
+CBS/Times	5/1	38	50	11
+Diageo/Hotline	4/30	43	47	10
+Economist/YouGov	4/30	41	43	16
+Gallup	4/27	48	42	10
+CNN	4/28	45	49	7
+Rasmussen	4/27	46	43	-
+FOX	4/28	46	43	11
+CBS/Times	4/25	45	45	9
+NBC/WSJ	4/25	43	46	6
+AP-Ipsos	4/23	44	46	2
+Pew	4/23	44	50	6
+Rasmussen	4/23	46	46	-
+Gallup	4/22	45	45	9
+Newsweek	4/24	44	47	9
+Economist/YouGov	4/21	45	42	13
+Rasmussen	4/19	47	44	-
+Gallup	4/17	45	45	5
+USA Today/Gallup	4/18	44	49	6
+Cook/RT	4/17	44	45	9
+Rasmussen	4/15	48	41	-
+Newsweek	4/16	44	48	8
+Democracy Corps (D)	4/15	47	48	3
+Economist/YouGov	4/15	45	42	13
+Gallup	4/12	44	46	9
+Rasmussen	4/11	47	43	-
+ABC/Post	4/10	44	49	2
+Harris Interactive	4/11	35	41	11
+Zogby	4/10	45	45	-
+Gallup	4/7	43	46	10
+Rasmussen	4/7	47	44	-
+AP-Ipsos	4/7	45	45	3
+Economist/YouGov	4/7	44	44	13
+Economist/YouGov	4/4	44	43	13
+Rasmussen	4/3	46	45	-
+Gallup	4/2	45	45	9
+IBD/TIPP	4/1	44	44	12
+Rasmussen	3/30	48	41	-
+CBS/Times	3/28	42	47	10
+Gallup	3/28	46	44	8
+Diageo/Hotline	3/28	46	44	8
+Rasmussen	3/26	47	44	-
+Voter/Consumer (R)	3/25	48	42	-
+Democracy Corps (D)	3/25	49	46	3
+Gallup	3/22	46	44	10
+Economist/YouGov	3/24	44	42	14
+NBC/WSJ	3/24	42	44	10
+Rasmussen	3/22	51	41	-
+Economist/YouGov	3/21	45	41	14
+Harris Interactive	3/14	33	39	12
+Pew	3/19	43	49	8
+Rasmussen	3/18	49	41	-
+Gallup	3/17	46	44	8
+FOX	3/18	44	43	13
+CBS	3/15	43	48	6
+Rasmussen	3/14	48	42	-
+USA Today/Gallup	3/14	47	49	-
+CNN	3/14	46	47	6
+Gallup	3/12	46	44	9
+Zogby	3/13	46	40	-
+Rasmussen	3/10	45	44	-
+Gallup	3/7	44	46	9
+NBC/WSJ	3/7	44	47	6
+Rasmussen	3/6	45	44	-
+Cook/RT	3/6	45	43	11
+Newsweek	3/5	45	46	9
+Rasmussen	3/2	46	44	-
+SurveyUSA	3/4	46	46	-
+Cook/RT	2/28	38	47	12
+ABC/Post	2/28	42	53	3
+Rasmussen	2/27	48	43	-
+Economist/YouGov	2/25	44	43	13
+Democracy Corps (D)	2/24	47	48	4
+Rasmussen	2/23	46	43	-
+Times/Bloomberg	2/21	44	42	9
+AP-Ipsos	2/22	41	51	2
+USA Today/Gallup	2/21	48	47	4
+CBS/Times	2/20	38	50	11
+Pew	2/20	43	50	7
+Rasmussen	2/19	46	43	-
+Research 2000	2/18	44	50	6
+FOX	2/19	43	47	10
+Economist/YouGov	2/19	44	45	14
+Rasmussen	2/15	43	46	-
+Diageo/Hotline	2/14	40	48	12
+Reuters/Zogby	2/13	40	47	8
+Rasmussen	2/11	43	46	-
+Economist/YouGov	2/11	39	49	13
+USA Today/Gallup	2/8	46	50	3
+AP-Ipsos	2/7	42	48	2
+Rasmussen	2/7	40	44	-
+Rasmussen	2/3	43	46	-
+Economist/YouGov	2/4	38	44	18
+Time	2/1	41	48	9
+CNN	2/1	44	52	4
+Cook/RT	1/31	43	45	9
+ABC/Post	1/30	48	47	2
+FOX	1/30	43	44	13
+NPR	1/29	48	47	2
+Democracy Corps (D)	1/29	48	47	2
+NBC/WSJ	1/20	42	42	10
+Times/Bloomberg	1/18	42	41	12
+USA Today/Gallup	1/10	50	45	4
+Diageo/Hotline	1/10	42	43	14
+Reuters/Zogby	1/10	45	43	-
+CNN	1/8	48	49	3

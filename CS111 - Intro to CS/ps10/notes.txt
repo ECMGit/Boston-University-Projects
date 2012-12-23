@@ -1,0 +1,7 @@
+guess at random if sunk ship or miss
+
+store last guess in temp variable
+
+determine if last guess was hit or miss (use applyGuess() in Board.java)
+
+if hit... guess(row, col +1) ect...

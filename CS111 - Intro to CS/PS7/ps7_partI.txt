@@ -1,0 +1,38 @@
+1. See attached file
+
+2. a. {20, 30, 40, 40}     
+        // This makes sense because the for loop never reaches i = 3. 
+        // Therefore values[3] is never changed.
+
+    b. 3 8 8
+        // This makes sense because the array z is a refrence to the array y.
+        // Therefore when y[2] was changed, essentially z[2] was changed as well.
+
+3. a.
+public static boolean hasEven(int[] data) {
+        for (int i = 0; i < data.length; i++) {
+	    if ( data[i] % 2 == 0) {
+                return true;
+            }
+        }
+        return false;
+    }
+
+b. public static void double(int[] data) {
+       
+          for(int i = 0; i < data.length; i++){
+             data[i] = data[i] * 2;
+          }
+     }
+
+c. Even though we may not be in the same method frame that data[] was declared, the the parameter is not a different array, but a reference to the same array.
+
+4. a. 
+for(int i = 0; i < twoD[0].length - 1; i++){
+   System.out.print(twoD[0][i]);
+}
+
+b. 
+for(int i = 0; i < twoD.length; i++){
+   System.out.print(twoD[i][0]);
+}

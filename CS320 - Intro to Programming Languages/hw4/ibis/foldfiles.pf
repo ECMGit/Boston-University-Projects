@@ -1,0 +1,79 @@
+-- Tim Duffy <timmahd@buedu>
+-- BU ID# U19028127
+-- foldfiles.pf - hw4
+
+-- Assumptions for agg function
+Introduce agg, id.
+Assume \forall f. f `agg` id = f
+Assume \forall f. id `agg` f = f
+Assume \forall f,g,h. f `agg` (g `agg` h) = (f `agg` g) `agg` h
+
+-- 1.a Assumptions for foldr function
+Introduce foldr, f, b, x, xs.
+Assume \forall f, b, x, xs. foldr f b (x:xs) = f x (foldr f b xs)
+Assume \forall f, b. 	    foldr f b []     = b
+
+-- 1.b Assumptions for append function
+Assume \forall x,xs,ys.	 (x:xs) ++ ys = x:(xs ++ ys)
+Assume \forall ys.	 []     ++ ys = ys
+
+-- Proof that: foldr agg id (xs ++ ys) = (foldr agg id xs) `agg` (foldr agg id ys)
+-- 1.c Begin with proof of base case (empty list)
+Assert \forall ys.
+[] ++ ys = ys
+/\ foldr agg id ys = foldr agg id ([] ++ ys)
+/\ foldr agg id [] = id
+/\ id `agg` (foldr agg id ([] ++ ys)) = foldr agg id ([] ++ ys)
+/\ (foldr agg id []) `agg` (foldr agg id ys) = foldr agg id ([] ++ ys)
+
+-- 1.d Proof of inductive case
+Assert \forall x,xs,ys.
+   (foldr agg id xs) `agg` (foldr agg id ys) 				=  foldr agg id (xs ++ ys)
+=> x `agg` ((foldr agg id xs) `agg` (foldr agg id ys)) = x `agg` (foldr agg id (xs ++ ys))
+-- Rewrite left side
+/\ x `agg` ((foldr agg id xs) `agg` (foldr agg id ys)) = (x `agg` (foldr agg id xs)) `agg` (foldr agg id ys)
+/\(x `agg` (foldr agg id xs)) `agg` (foldr agg id ys) = (agg x (foldr agg id xs)) `agg` (foldr agg id ys)
+/\ foldr agg id (x:xs) = agg x (foldr agg id xs)
+/\ (agg x (foldr agg id xs)) `agg` (foldr agg id ys) = (foldr agg id (x:xs)) `agg` (foldr agg id ys)
+
+-- Rewrite right side
+/\ x `agg` (foldr agg id (xs ++ ys)) = agg x (foldr agg id (xs ++ ys))
+/\ foldr agg id (x:(xs ++ ys)) = agg x (foldr agg id (xs ++ ys))
+/\ (x:xs) ++ ys = x:(xs ++ ys)
+/\ foldr agg id ((x:xs) ++ ys) = foldr agg id (x:(xs ++ ys))
+
+-- Put two sides together
+/\ foldr agg id (x:xs) `agg` (foldr agg id ys) = foldr agg id ((x:xs) ++ ys)
+
+-- 2.a Base Case (xs == [])
+Assert [] ++ [] = []
+
+-- Inductive Case
+Assert \forall x,xs.
+    xs ++ [] = xs
+ => x:(xs ++ []) = x:xs
+/\ (x:xs) ++ []  = x:(xs ++ [])
+/\ (x:xs) ++ []  = x:xs
+
+-- 2.b Base Case (xs == [])
+Assert \forall ys,zs. 
+    [] ++ ys = ys
+/\ ([] ++ ys) ++ zs 	= ys ++ zs
+/\  [] ++ (ys ++ zs) 	= ys ++ zs
+/\ ([] ++ ys) ++ zs 	= [] ++ (ys ++ zs)
+
+-- Inductive Case
+Assert \forall x,xs,ys,zs.
+   (xs ++ ys) ++ zs 		= xs ++ (ys ++ zs)
+=>  x:((xs ++ ys) ++ zs) 	= x:(xs ++ (ys ++ zs))
+
+-- Rewrite left side
+/\ (x:(xs ++ ys)) ++ zs = x:((xs ++ ys) ++ zs)
+/\ (x:xs) ++ ys 	= x:(xs ++ ys)
+/\ (x:(xs ++ ys)) ++ zs = ((x:xs) ++ ys) ++ zs
+
+-- Rewrite right side
+/\ (x:xs) ++ (ys ++ zs)	= x:(xs ++ (ys ++ zs))
+
+-- Put two sides together
+/\ ((x:xs) ++ ys) ++ zs = (x:xs) ++ (ys ++ zs)

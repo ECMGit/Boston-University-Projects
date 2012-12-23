@@ -1,0 +1,152 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+	<META HTTP-EQUIV="CONTENT-TYPE" CONTENT="text/html; charset=utf-8">
+	<TITLE></TITLE>
+	<META NAME="GENERATOR" CONTENT="OpenOffice.org 3.3  (Unix)">
+	<META NAME="AUTHOR" CONTENT="Tim Duffy">
+	<META NAME="CREATED" CONTENT="20120222;22461500">
+	<META NAME="CHANGEDBY" CONTENT="Tim Duffy">
+	<META NAME="CHANGED" CONTENT="20120222;23371600">
+	<STYLE TYPE="text/css">
+	<!--
+		@page { margin: 0.79in }
+		P { margin-bottom: 0.08in }
+		H3 { margin-bottom: 0.08in }
+		H3.western { font-family: "Arial", sans-serif }
+		H3.ctl { font-family: "Arial Unicode MS" }
+		H2 { margin-bottom: 0.08in }
+		H2.western { font-family: "Arial", sans-serif; font-size: 14pt; font-style: italic }
+		H2.cjk { font-size: 14pt; font-style: italic }
+		H2.ctl { font-family: "Arial Unicode MS"; font-size: 14pt; font-style: italic }
+	-->
+	</STYLE>
+</HEAD>
+<BODY LANG="en-US" DIR="LTR">
+<H3 CLASS="western" ALIGN=CENTER>Project 2: Neural Nets</H3>
+<P ALIGN=LEFT STYLE="border-top: none; border-bottom: 1px solid #000000; border-left: none; border-right: none; padding-top: 0in; padding-bottom: 0.03in; padding-left: 0in; padding-right: 0in">
+Group members:<BR>Adam Even Engel<BR>Chris Hall<BR>Tim Duffy<BR><BR><BR>
+</P>
+<H2 CLASS="western">Purpose:</H2>
+<P>To develop a Neural Net able to analyze large swaths of training
+data from the University of California Irvine's data banks using a
+backpropagation algorithm, and to use the Neural Net to predict
+results for the testing data with minimal error.</P>
+<P STYLE="border-top: none; border-bottom: 1px solid #000000; border-left: none; border-right: none; padding-top: 0in; padding-bottom: 0.03in; padding-left: 0in; padding-right: 0in">
+<BR><BR>
+</P>
+<H2 CLASS="western">Implementation:</H2>
+<P>We utilized the Java programming language for this project using
+both the Eclipse and NetBeans IDEs. The final source code was a
+modification of the supplied code written by Zhiqiang (Alex) Ren. As
+previously stated, this project implemented a classic back
+propagation algorithm.</P>
+<P STYLE="border-top: none; border-bottom: 1px solid #000000; border-left: none; border-right: none; padding-top: 0in; padding-bottom: 0.03in; padding-left: 0in; padding-right: 0in">
+<BR><BR>
+</P>
+<H2 CLASS="western">Development:</H2>
+<P>To solve this problem, we identified three key issues to resolve:</P>
+<OL>
+	<LI><P>Error calculation</P>
+	<LI><P>Neural net weighting</P>
+	<LI><P>Preprocessing of data</P>
+</OL>
+<P>Development was performed over the course of four days. We began
+by implementing a function train(), the purpose of which was to
+create the optimally-weighted neural net for the training data. This
+alone took a solid three days of coding and debugging. This was
+coupled with development of error calculation techniques which
+treated the node thresholds of the neural net as sigmoidal functions.
+Calculation of the hidden node error was performed according to the
+following equation:</P>
+<P STYLE="margin-bottom: 0in">	Beta<SUB>A</SUB> =  For all output
+connections<SUB>(A to i)</SUB>, <FONT FACE="Times New Roman, serif">∑</FONT>
+(weight * output<SUB>i</SUB> * (1 - out<SUB>i</SUB>) * beta<SUB>i </SUB>)</P>
+<P STYLE="margin-bottom: 0in"><BR>
+</P>
+<P STYLE="margin-bottom: 0in">where A is a hidden node whose output
+connects to node i and beta is the calculated error.</P>
+<P STYLE="margin-bottom: 0in"><BR>
+</P>
+<P STYLE="margin-bottom: 0in">	We used this error to calculate the
+necessary weight changes. With every pass through the data, the
+weight was automatically adjusted according to the error previously
+calculated. In this way, we hoped to minimize our error over the
+course of several hundred passes through the training data sets.</P>
+<P STYLE="margin-bottom: 0in"><BR>
+</P>
+<P ALIGN=LEFT STYLE="font-weight: normal"><FONT SIZE=3>	To choose our
+parameters, we began with a learning rate of 1. From there we
+compared the error rate when we increase the learning rate
+significantly, and when we decreased it significantly. This allowed
+us to find an optimal learning rate using a guess-and-check method
+for each data set. We found that for the first data set, a learning
+rate of 14 worked extremely well. For the other data sets, a learning
+rate of 1 worked fine. We also found that increasing the number of
+training rounds significantly decreased our error rate.</FONT></P>
+<P STYLE="margin-bottom: 0in"><BR>
+</P>
+<P ALIGN=LEFT STYLE="margin-bottom: 0in; font-weight: normal"><FONT SIZE=3>	For
+the credit data set, initially the data had to be converted from
+strings to numbers (in the form of doubles) which was performed using
+a function provided within the skeleton code. Once our data set was
+ready for use, we had to account for several missing data values,
+indicated in the original files with a question mark “?”. We
+replaced these “?”'s with the label-conditioned mean found for
+that particular attribute. Once all of this preparation was complete,
+we implemented a normalization function below to scale the data.  </FONT>
+</P>
+<P ALIGN=LEFT STYLE="margin-bottom: 0in; font-weight: normal"><IMG SRC="Project2site_html_1297f92f.png" NAME="graphics1" ALIGN=LEFT WIDTH=187 HEIGHT=61 BORDER=0><BR CLEAR=LEFT><FONT SIZE=3>The
+normalized data could then be run through our back propagation
+algorithm to create a minimal-error neural net. </FONT>
+</P>
+<P ALIGN=LEFT STYLE="margin-bottom: 0in; font-weight: normal"><BR>
+</P>
+<P ALIGN=LEFT STYLE="margin-bottom: 0in; font-weight: normal"><FONT SIZE=3>We
+had to treat the lens data a little differently to allow for three
+possible outputs instead of 2. Since output nodes all had to have
+values between 0 and 1, the thresholds for the three outputs were set
+as 0, 0.5, and 1 to replace the 1, 2, and 3 found in the data,
+respectively. A new errorrate() function also had to be developed to
+compensate for a new range of outputs. To do this, the output range
+was separated into thirds and compared to the target output.</FONT></P>
+<P ALIGN=LEFT STYLE="margin-bottom: 0in; font-weight: normal"><BR>
+</P>
+<P ALIGN=LEFT STYLE="margin-bottom: 0in; font-weight: normal"><FONT SIZE=3>After
+implementing these functions and algorithms, testing began. They
+weren't pretty to begin with. We ran into enough bugs that two
+evenings worth of coding were dedicated to determining where our code
+went wrong. When we began testing, our calculated error was
+outrageously high. We realized that this was due to a faulty
+understanding of the calculation of delta. Near the end of our
+coding, we realized that the lenses error calculation for the testing
+data consistently returned an error of 0.5 which, let's be honest, is
+ridonkulous. Since our data wasn't normalized before analysis, it
+returned this unreasonably high error. Once we normalized the numbers
+and figures, the error rate dropped to zero, and voila, we had our
+Neural Net. Long story short, zombies would eat this up.</FONT></P>
+<P ALIGN=LEFT STYLE="margin-bottom: 0in; border-top: none; border-bottom: 1px solid #000000; border-left: none; border-right: none; padding-top: 0in; padding-bottom: 0.03in; padding-left: 0in; padding-right: 0in; font-weight: normal">
+<BR>
+</P>
+<P ALIGN=LEFT STYLE="margin-bottom: 0in; font-weight: normal"><BR>
+</P>
+<H2 CLASS="western">Data:</H2>
+<P>Because the weights were randomized at initialization, no two
+trials produced the same results. As such, in lieu of supplying data,
+we urge you to test out our code for yourself and watch the error
+shrink.</P>
+<P STYLE="border-top: none; border-bottom: 1px solid #000000; border-left: none; border-right: none; padding-top: 0in; padding-bottom: 0.03in; padding-left: 0in; padding-right: 0in">
+<BR><BR>
+</P>
+<P><BR><BR>
+</P>
+<H2 CLASS="western">Conclusion:</H2>
+<P>Neural nets are a good way to analyze large sets of data to
+predict future outcomes. However, they are not 100% accurate and
+small bugs in development lead to disastrous results. When all is
+said, and done... 
+</P>
+<H3 CLASS="western" ALIGN=CENTER>We taught a computer to learn.</H3>
+<P ALIGN=LEFT>To download the code for yourself, click here.</P>
+</BODY>
+</HTML>

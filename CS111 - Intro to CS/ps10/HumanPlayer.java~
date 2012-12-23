@@ -1,0 +1,32 @@
+/*
+ * HumanPlayer.java - takes guesses from the user.
+ *
+ * Code by: Tim Duffy, timmahd
+ */
+
+import java.util.*;
+  
+public class HumanPlayer extends Player{
+  private Scanner console;
+  
+  public HumanPlayer(String name, Board board, Scanner console){
+    super(name, board, false);
+    this.console = console;
+  }
+  
+  public Guess nextGuess(Board otherBoard) {
+    int row;
+    int col;
+    
+    System.out.println("Enter your guess.");
+    System.out.print("     row:");
+    row = console.nextInt();
+    console.nextLine();
+    System.out.print("  column:");
+    col = console.nextInt();
+    console.nextLine();
+    
+    Guess guess = new Guess(row, col);
+    return guess;
+  }
+}
