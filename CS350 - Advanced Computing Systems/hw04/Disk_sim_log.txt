@@ -1,1 +1,0 @@
-Time 			w 	# served   total in system (q)

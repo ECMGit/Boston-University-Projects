@@ -1,0 +1,114 @@
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta name="Microsoft Border" content="tb">
+</head>
+<table border="0" width="660" id="table4">
+	<tr>
+		<td>
+<h2>
+<font face="Arial" color="#CE0000">Homework #7 (100 Points)</font></h2>
+
+<h4>
+       Due 03:00pm on Tuesday 04/05/2011 through
+<a href="http://blackboard.bu.edu/"><font color="#000000">
+http://blackboard.bu.edu</font></a></h4>
+
+<p>
+<i>    Feel free to make assumptions, if you feel that such assumptions
+    are  justified  or  necessary.  Please  state  your  assumptions
+    clearly.  Unreasonable assumptions  lead to unreasonable grades!</i></p>
+<hr color="#CE0000">
+<ol>
+	<li>
+	Read this <a href="../../handouts/JavaConcurrency.html">short primer</a> 
+	about multithreading in Java. Using multithreading you are able to have 
+	multiple threads (for our purposes, we can also think of them as processes 
+	as well).<p>&nbsp;<ol type="a">
+	<li>Write a Java program that will spawn and run concurrently two threads of 
+	the same code. The code that each&nbsp; thread will follow should consist of 
+	a loop that executes five times. Each iteration of the loop should start by 
+	having the thread print the first of the five lines below (using a &quot;print&quot; 
+	statement), then sleep for some random amount of time (say between 0 and 20 
+	msec), then print the second line, then sleep again, etc. until all five 
+	lines below are printed out.<blockquote>
+		<p style="margin-top: 0; margin-bottom: 0">&quot;Thread i is starting 
+		iteration k&quot;</p>
+		<p style="margin-top: 0; margin-bottom: 0">&quot;We hold these truths to be 
+		self-evident, that all men are created equal,&quot;</p>
+		<p style="margin-top: 0; margin-bottom: 0">&quot;that they are endowed by 
+		their Creator with certain unalienable Rights,&quot;</p>
+		<p style="margin-top: 0; margin-bottom: 0">&quot;that among these are Life, 
+		Liberty and the pursuit of Happiness.&quot;</p>
+		<p style="margin-top: 0; margin-bottom: 0">&quot;Thread i is done with 
+		iteration k&quot;</p>
+	</blockquote>
+	<p style="margin-top: 0; margin-bottom: 0">Run your code and show that the 
+	output of the two processes will be interleaved (making the output 
+	incomprehensible). </p>
+	<p style="margin-top: 0; margin-bottom: 0">&nbsp;</li>
+	<li>To make the above work, you will need to use a critical section so that 
+	the five print statements in a single iteration are all inside that critical 
+	section. Use the following version of the Dekker's algorithm and show that 
+	the statements are printed cohesively.<p><u><i>CS Entry Protocol for 
+	Procedss i</i></u><br>
+	<font face="Courier New">&nbsp;&nbsp;&nbsp; flag[i]:=true; <br>
+&nbsp;&nbsp;&nbsp; while flag[j]{<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; if (turn==j) { <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; flag[i]:=false;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; while (flag[j]==true) {};<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; flag[i]:=true;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; }<br>
+&nbsp;&nbsp;&nbsp; }<br>
+&nbsp; </font></p>
+	<p><u><i>CS Exit Protocol for Process i</i></u><br>
+	<font face="Courier New">&nbsp;&nbsp;&nbsp; turn:=j;<br>
+&nbsp;&nbsp;&nbsp; flag[i]:=false;</font></p>
+	<p>&nbsp;</li>
+	<li>Can you illustrate (using your code) that using the above Dekker 
+	algorithm, it is possible for (say) thread 0 to be executing its entry 
+	protocol while thread 1 manages to get into the critical section more than 
+	once.Hint: You may want to use artificial delay (e.g., sleep) instructions 
+	that will make the threads proceed at different speeds.<p>&nbsp;</li>
+	<li>Replace the above Dekker algorithm with the following Peterson algorithm 
+	and show that the scenario you created in (c) does not occur.<p><u><i>CS 
+	Entry Protocol for Process i</i></u><br><font face="Courier New">&nbsp;&nbsp;&nbsp; 
+	turn:=j; <br>&nbsp;&nbsp;&nbsp; flag[i]:=true;<br>&nbsp;&nbsp;&nbsp; while (flag[j] 
+	&amp;&amp; turn==j) {};</font></p>
+	<p><u><i>CS Exit Protocol for Process i</i></u><br><font face="Courier New">&nbsp;&nbsp;&nbsp; flag[i]:=false</font>;</li>
+</ol>
+	<p>&nbsp;</li>
+	<li>Consider the Bakery algorithm discussed in class and in the notes. One 
+	idea was to use a ticket = 1 to avoid having to use the 
+	&quot;choosing&quot; flag. Making such a change would give us the code below.<br>
+	Note: Assume that the variable ticket can be arbitrarily large (i.e., you do 
+	not have to worry about it becoming too big).
+	<p><i><u>CS Entry Protocol for Process i</u></i><br>
+	<font face="Courier New">&nbsp; ticket[i]:=1; <br>&nbsp; ticket[i]:=max(ticket[0]..ticket[n-1])+1;<br>&nbsp; for j:=0 to n-1 do {<br>&nbsp;&nbsp;&nbsp;&nbsp; while(ticket[j]!=0 &amp;&amp; (ticket[j],j)&lt;(ticket[i],i)){};<br>&nbsp; }</font></p>
+	<p><i><u>CS ExitProtocol for Process i</u></i><br><font face="Courier New">&nbsp; ticket[i]:=0;</font></p>
+	<ol type="a">
+		<li>Does the above tweak work? If yes, then prove it, if not, then provide a 
+	counter example.</li>
+		<li>Implement the above version of the Bakery algorithm in Java, and 
+		dependent on your answer to part (a) either show a set of (say 4) 
+		threads reciting the declaration of independence cohesively, or else 
+		not.</li>
+	</ol>
+	<p>&nbsp;</p></li>
+	<li>As discussed in class, all software approaches for mutual exclusion rely 
+	on &quot;busy waiting&quot;.&nbsp; In this problem, we will &quot;measure&quot; the overhead 
+	from this busy waiting. We will do so simply by counting the number of times 
+	a busy waiting loop is executed in your solution of problem (1.d). You can 
+	do so by having each thread keep a count of how many times it executed the 
+	&quot;while&quot; loop. What results do you obtain? e.g., on average, how many times 
+	is the busy-waiting loop executed per request for the critical section? You 
+	may want to repeat your experiment a number of times and report a 
+	95th-percent confidence interval. 
+	<p>Note: By incrementing a counter in the busy-waiting loop, you are 
+	effectively undercounting the number of iterations -- i.e., without that 
+	counter in the picture, the loop condition would have been checked more 
+	times.&nbsp;&nbsp; </p>
+	<p>&nbsp;</p></li>
+</ol>
+		<hr color="#CE0000"></td>
+	</tr>
+</table>

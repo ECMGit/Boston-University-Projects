@@ -1,7 +1,0 @@
-2. a. This is a NOT a valid assignment  because Automobile is not a subclass of Limousine. Therefore it can not inherit its properties. An Automobile is not always a Limousine
-    b. This is a valid assignment because Automobile is a subclass of Object and inherits its properties. An Automobile is an Object.
-    c. This is a valid assignment because TractorTrailer is a subclass of Truck and inherits its properties. A TractorTrailer is a Truck.
-
-3. a. Statement will not compile because there is no third( ) in the Gee class.
-    b. fo fum from
-    c. fo fum from

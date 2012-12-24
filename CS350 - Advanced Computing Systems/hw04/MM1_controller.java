@@ -1,4 +1,4 @@
-/* M/M/1 simulator - simulates an M/M/1 system with user specified arrival rate and service rate. 
+/* M/M/1 controller - simulates an M/M/1 system with user specified arrival rate and service rate. 
  * Uses Event.java to schedule events and State.java record the current state of the system
  * 
  * Written by Tim Duffy for CS350 hw04

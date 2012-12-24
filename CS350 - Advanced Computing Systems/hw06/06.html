@@ -1,0 +1,138 @@
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta name="Microsoft Border" content="tb">
+</head>
+<table border="0" width="660" id="table4">
+	<tr>
+		<td>
+<h2>
+<font face="Arial" color="#CE0000">Homework #6 (100 Points)</font></h2>
+
+<h4>
+       Due 03:00pm on Tuesday 03/29/2011 through
+<a href="http://blackboard.bu.edu/"><font color="#000000">
+http://blackboard.bu.edu</font></a></h4>
+
+<p>
+<i>    Feel free to make assumptions, if you feel that such assumptions
+    are  justified  or  necessary.  Please  state  your  assumptions
+    clearly.  Unreasonable assumptions  lead to unreasonable grades!</i></p>
+<hr color="#CE0000">
+<ol>
+	<li>Consider the following specification of three periodic tasks:
+	<table id="table5" cellSpacing="0" cellPadding="0" width="600" border="0">
+		<tr>
+			<td><b>&nbsp;&nbsp;</b></td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+		</tr>
+		<tr>
+			<td>&nbsp;</td>
+			<td><b>Period&nbsp;</b></td>
+			<td><b>CPU time / Period</b></td>
+		</tr>
+		<tr>
+			<td><b>Task 1&nbsp;</b></td>
+			<td>T seconds</td>
+			<td>1 seconds</td>
+		</tr>
+		<tr>
+			<td><b>Task 2</b></td>
+			<td>5 seconds</td>
+			<td>1 second</td>
+		</tr>
+		<tr>
+			<td><b>Task 3</b></td>
+			<td>7 seconds</td>
+			<td>2 seconds</td>
+		</tr>
+	</table>
+	<p>&nbsp;
+	<ol>
+		<li type="a">What is the minimum value of T that would result in a 
+		schedulable system using Rate Monotonic Scheduling? </li>
+		<li type="a">Show the first 21 seconds of execution of the system above 
+		using the value of T that you obtained in part (a) above. Assume that 
+		all tasks are started at time 0 and that RMS scheduling is used.&nbsp; 
+		</li>
+		<li type="a">What is the minimum value of T that would result in a 
+		schedulable system using Earliest Deadline First? </li>
+		<li type="a">Show the first 21 seconds of execution of the system above 
+		using the value of T that you obtained in part (c) above. Assume that 
+		all tasks are started at time 0 and that EDF scheduling is used. </li>
+	</ol>&nbsp;</li>
+	<li>A web server has a caching subsystem that holds a set of files out of 
+	all the files in the system. Each file in the file system has a unique ID 
+	(e.g., filename). Requests served from the cache take much less time than 
+	those served from the disk. Thus, in an attempt to speed up its operation, 
+	the web server uses the following scheduler for HTTP requests:
+	<ol type="i">
+		<li>When a request for a file fi is received, if fi is in the cache, 
+		then the request is put in Q1, otherwise it is put in Q2. </li>
+		<li>When the server is available to process a request: If Q1 is not 
+		empty, then the server picks the next request from Q1, otherwise the 
+		server picks a request fj from Q2, where fj is the smallest ID of all 
+		requests larger than the maximum ID of any file in the cache.</li>
+		<li>When a file fj is retrieved from disk (in response to a request 
+		de-queued from Q2), then fj is cached by replacing the file fk with the 
+		minimum ID amongst all files in the cache.</li>
+	</ol>
+	<p>Answer the following questions:
+	<ol type="a">
+		<li>Show that starvation is possible in the above system… Specifically, 
+		describe a particular scenario under which starvation is possible.
+		<p>To minimize the impact of starvation, a friend of yours suggested 
+		that the following initial step be incorporated at the beginning of the 
+		above solution: </p>
+		<blockquote>
+			<p><i>Requests to the web server are batched up in groups of up to N 
+			requests. A batch is processed by going through steps (i), (ii) and 
+			(iii) for all requests in the batch. Once all requests in a batch 
+			are processed, a new batch is considered, etc. </i></p>
+		</blockquote></li>
+		<li>What kind of disk scheduling algorithm was your friend thinking of 
+		when he suggested the above fix? </li>
+		<li>Discuss the effect of N on the effectiveness of the cache (i.e., is 
+		a large N better for improving the cache performance or is a small N 
+		better?)</li>
+		<li>Discuss the effect of N on the fairness of the above system (i.e., 
+		is a large N better for improving fairness or is a small N better for 
+		fairness?)</li>
+	</ol>
+	<p>&nbsp;</li>
+	<li>Requests for disk I/O arrive according to a Poisson process with rate 
+	Lambda (requests per second). Each request&nbsp; for disk access targets a 
+	specific track. Requests for tracks are uniformly distributed over the set 
+	of N tracks in the disk. The service time <i>Ts&nbsp; </i>for a request to track
+	<i>x</i> is given by:
+	<p>&nbsp;<i>Ts = U + V * | y - x |</i></p>
+	<p>where y is the location of the disk head prior to serving the request, 
+	and where <i>U </i>and <i>V</i> are constants.</p>
+	<p>You are to write a simulator to compare the performance of the RANDOM, 
+	FCFS and SCAN disk schedulers when used to manage the above disk. Your simulator should 
+	evaluate the performance of all three schedulers when subjected to a workload of 
+	10,000 requests.
+	<p>Hint: Think about what constitutes the state of the disk. Also, for each 
+	request in the queue you should specify a track number from [1,N] (generated 
+	uniformly at random). Now, upon a death event, if the queue is not empty, 
+	the scheduler would select one of the requests according to what the 
+	scheduling algorithm implies.<p>For each scheduler, you need to calculate the following:
+	<ul>
+		<li>The total head movement </li>
+		<li>The average response time </li>
+		<li>The 95th percentile of the response time </li>
+	</ul>
+	<p>Use the following parameters:
+	<ul>
+		<li>Lambda = 50 requests per second </li>
+		<li>N = 500 tracks </li>
+		<li>U = 2 msec </li>
+		<li>V = 0.1 msec/track </li>
+	</ul>
+	<p>What did you expect the results to show? Did they match your 
+	expectations? 
+	</li>
+</ol>
+		<hr color="#CE0000"></td>
+	</tr>
+</table>

@@ -1,0 +1,200 @@
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<style>
+<!--
+ table.MsoNormalTable
+	{mso-style-parent:"";
+	font-size:10.0pt;
+	font-family:"Times New Roman"}
+-->
+</style>
+<meta name="Microsoft Border" content="tb">
+</head>
+<table border="0" width="660" id="table4">
+	<tr>
+		<td>
+<h2>
+<font face="Arial" color="#CE0000">Homework #8 (100 Points)</font></h2>
+
+<h4>
+       Due 03:00pm on Tuesday 04/12/2011 through
+<a href="http://blackboard.bu.edu/"><font color="#000000">
+http://blackboard.bu.edu</font></a></h4>
+
+<p>
+<i>    Feel free to make assumptions, if you feel that such assumptions
+    are  justified  or  necessary.  Please  state  your  assumptions
+    clearly.  Unreasonable assumptions  lead to unreasonable grades!</i></p>
+<hr color="#CE0000">
+<ol>
+	<li>The following code was proposed (by David Seidman CS-350 class of S'04) as the rendezvous code for N processes 
+  using N semaphores:
+	<ul>
+		<ul>
+			<pre>signal(semaphore[i]);
+for(j = 0; j &lt; N; j++) {
+  wait(semaphore[j]);
+  signal(semaphore[j]);
+}
+[[Rendezvous Code Here]]]</pre>
+		</ul>
+	</ul>
+	<ol>
+		<li type="a">Prove that the above code will work. What should be the 
+		initialization of semaphore[i]? </li>
+	</ol>
+	<p>When presented with the above code, another student suggested that a 
+	better solution is the one below. </p>
+	<ul>
+		<ul>
+			<pre>signal(semaphore[i]);
+for(j = 0; j &lt; N; j++) {
+  wait(semaphore[j]);
+  signal(semaphore[j]);
+}
+[[Rendezvous Code Here]]]
+wait(semaphore[i]);</pre>
+		</ul>
+	</ul>
+	<p>&nbsp;<ol type="a" start="2">
+		<li type="a">Could a process ever block as a result of executing the last 
+  instruction in the above code? If yes, give an example, if not, then explain 
+  why not. </li>
+		<li>Why do you think the last instruction in the above code is included?<p>&nbsp;&nbsp;
+		</li>
+	</ol>
+	</li>
+	<li>
+	<p class="MsoNormal"><i>Laundromat Brawl. </i>The local laundromat has just entered the computer 
+  age. As each customer enters, he or she puts coins into slots at one of two 
+  stations and types in the number of washing machines he/she will need. The 
+  stations are connected to a central computer that automatically assigns 
+  available machines and outputs tokens that identify the machines to be used. 
+  The customer puts laundry into the machines and inserts each token into the 
+  machine indicated on the token. When a machine finishes its cycle, it informs 
+  the computer that it is available again. The computer maintains a boolean 
+  array available[M] to represent if corresponding machines are 
+  available (M is a constant indicating how many machines there are in 
+  the laundromat), and a semaphore nfree that indicates how many machines are 
+  available. The pseudo code to allocate and release machines is as follows. The 
+  available array is initialized to all true, and nfree is initialized to 
+  	M. </p>
+	<pre>int allocate() /* Returns index of available machine */
+{
+  wait(nfree); /* Wait until a machine is available */
+  for (int i=0; i &lt; M; i++)
+    if (available[i]) {
+      available[i] = FALSE;
+      return i;
+    }
+}
+</pre>
+	<pre>void return(int machine) /* Make machine available again */
+{
+  available[machine] = TRUE;
+  signal(nfree);
+}</pre>
+	<ol type="a">
+		<li>
+		<p class="MsoNormal">It seems that if two people make requests at the two stations at the same 
+  time, they will occasionally be assigned the same machine. This has resulted 
+  in several brawls in the laundromat, and you have been called in by the owner 
+  to fix the problem. Assume that one thread handles each customer station. 
+  Explain how the same washing machine can be assigned to two different 
+  customers. </p></li>
+		<li>
+		<p class="MsoNormal">Modify the pseudo code above to eliminate the 
+		problem. You need not implement this in Java, but feel free to do so if 
+		you wish.</p>
+		<p>&nbsp;</li>
+	</ol></li>
+	<li><i>Critical Section with Priorities:</i> A set of processes share a 
+	critical section of code, which is to be accessed in a mutually exclusive 
+	fashion. Each process is assigned a priority according to its ID -- the 
+	lower the ID, the higher the priority, so P1 is higher priority than P2. If 
+	two or more processes need to access the critical section, then the one with 
+	&quot;higher priority&quot; enters the critical section next. The following is a 
+	sketch of the solution for this problem using semaphores.
+	<ol type="a">
+		<li>We keep a vector V[] of booleans. V[i] is &quot;True&quot; if Pi needs to 
+		use the critical section. </li>
+		<li>We use a vector of binary semaphores B[] to block processes from 
+		entering their critical section: B[i] will be the semaphore blocking 
+		process Pi. </li>
+		<li>A special scheduler process SCHED is used whenever a blocked process 
+		needs to be awakened to use the critical section. </li>
+		<li>SCHED is blocked by waiting on a special semaphore S. </li>
+		<li>When a process Pi needs to enter the critical section, it sets V[i] to &quot;True&quot;, 
+		signals the semaphore S and then waits on the semaphore B[i]. </li>
+		<li>Whenever SCHED is unblocked, it selects the process 
+		Pi (if any) with the smallest index i for which V[i] is &quot;True&quot;. Process Pi is 
+		then awakened by signaling B[i].&nbsp; SCHED goes back to sleep by 
+		blocking on semaphore S. </li>
+		<li>
+		<p style="MARGIN-BOTTOM: 0px">When a process Pi leaves the critical 
+		section, it signals S. </li>
+	</ol>
+	<p style="MARGIN-TOP: 0px; MARGIN-BOTTOM: 6px">&nbsp;</p>
+	<p style="MARGIN-TOP: 0px; MARGIN-BOTTOM: 6px">Answer the questions below:<ul>
+		<li>
+		<p style="MARGIN-TOP: 0px; MARGIN-BOTTOM: 6px">Implement the operation 
+		of the above sketched system in Java [here is
+		<a href="../../handouts/JavaSemaphores.html">a primer on using 
+		semaphores in Java</a>]. Clearly explain the various data 
+		structures you use and initializations thereof. </li>
+		<li>
+		<p style="MARGIN-TOP: 0px; MARGIN-BOTTOM: 6px">Show your Java code in 
+		action. Assume that there are five processes P0, P1, P2, ... P5 with P0 
+		being the highest priority, P1 being the next, etc. Each process 
+		requests the critical section for a total of five times (say in a loop 
+		from 1 to 5). Process Pi should print <i>&quot;Pi is requesting CS&quot;</i> 
+		before proceeding with the step described in (e) above. It should print
+		<i>&quot;Pi is in the CS&quot;</i> whenever it is in the critical section. And, it 
+		should print <i>&quot;Pi is exiting the CS&quot;</i> when it gets to the step 
+		described in (g). Your code needs fixing if you get a printout 
+		indicating that two processes Pi and Pj (where i&lt;j) are requesting the 
+		CS and Pj gets to the CS before Pi (even if Pj requested it before Pi).</li>
+		<li>Explain how you could use the above template to design a protocol 
+		for a set of processes to access the CS according to some arbitrary 
+		metric -- e.g., using EDF based on a deadline imposed on the process, or 
+		by accounting for the number of times a process was allowed to enter the 
+		CS, and giving priority to the process that has used the CS the least so 
+		far in its lifetime, etc.</li>
+	</ul>
+	<p>&nbsp;</li>
+	<li>The use of a single directional servo camera is to be synchronized among 
+	a set of concurrent client processes (threads). Using servo controls, it is 
+	possible to make the camera point to any one of 8 different discrete angles 
+	to take a snapshot. Since it takes a significant amount of time for the 
+	camera to change its angle (compared to the time it takes it to take the 
+	picture), it was determined that a good way to synchronize the various 
+	client processes' exclusive use of the camera is to use one of the various 
+	schedulers for stateful resources, namely, the FSCAN scheduler.
+	<p>The proposed solution works as follows:
+	<ul>
+		<li>Each client thread will execute in a loop, in which the thread would 
+		(1) sleep for a random period of time, (2) requests a snapshot at some 
+		camera angle (e.g., selected uniformly at random), (3) blocks until the 
+		camera takes that snapshot, and (4) go back to (1). </li>
+		<li>The camera is controlled by a single thread that executes in a 
+		continuous loop, in which the thread would (1) block until a request 
+		from a client thread is issued, (2) selects the next request to service 
+		according to the FSCAN scheduling strategy, (3) after some delay 
+		proportional to the angle it has to move, it signals the client thread(s) 
+		for which the snapshot was taken, and (4) go back to (1).</li>
+		<li>In the above solution, since it may be the case that multiple client 
+		threads might be blocked waiting for snapshots from the same angle, the 
+		camera thread should signal all threads that requested that angle since 
+		one snapshot would satisfy all of them. </li>
+	</ul>
+	<p>Write a Java code that implements the above sketched solution. Your code 
+	should produce printouts every time a client makes a request and every time 
+	the camera serves a snapshot&nbsp; to one or more clients (indicating the 
+	client id and the angle of the snapshot requested/served). Use your code for 
+	enough time and with enough client threads and number of iterations to 
+	convince yourself (and the graders) that FSCAN is followed correctly.</p>
+	</li>
+</ol>
+		<hr color="#CE0000"></td>
+	</tr>
+</table>

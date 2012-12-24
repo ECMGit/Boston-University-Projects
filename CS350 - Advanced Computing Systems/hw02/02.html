@@ -1,0 +1,133 @@
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta name="Microsoft Border" content="tb">
+</head>
+<table border="0" width="660" id="table4">
+	<tr>
+		<td>
+<h2>
+<font face="Arial" color="#CE0000">Homework #2 (100 Points)</font></h2>
+
+<h4>
+       Due 03:00pm on Tuesday 02/15/2011 through
+<a href="http://blackboard.bu.edu/"><font color="#000000">
+http://blackboard.bu.edu</font></a></h4>
+
+<p>
+<i>    Feel free to make assumptions, if you feel that such assumptions
+    are  justified  or  necessary.  Please  state  your  assumptions
+    clearly.  Unreasonable assumptions  lead to unreasonable grades!</i></p>
+<hr color="#CE0000">
+<ol>
+  <li>As we discussed in class, the availability of a system is defined as the 
+	probability that the system is &quot;up&quot; (i.e., available) when accessed at some 
+	random point in time. A friend of yours working in a startup was tasked with 
+	the development of a web service that would be at least 99% available. To 
+	measure the availability of the service that he developed, your friend wrote 
+	a script which periodically (every minute) &quot;pinged&quot; the service and reported 
+	the percentage of all these pings that were successful (i.e., the service 
+	was available). His findings were that the service availability was 0.95 
+	(i.e., 95%). To salvage his job, your friend suggested that instead of 
+	offering the service through a single server, he would set up the service on 
+	two identical servers such that if the first server is down, the second 
+	server would take over.<ol type="a">
+  <li>What is your guess as to the availability of the service when offered 
+	using the new 2-server configuration? Show all calculations.&nbsp; </li>
+</ol>
+	<p>Your friend's supervisor, upon learning of the above results, was quite 
+	unhappy. She brought up two concerns -- namely, (1) she did not trust the 
+	measurement approach that your friend used to evaluate the availability of 
+	the service on a single server, and (2) even if those measurements were 
+	correct, she did not believe that running the service on two servers as 
+	described above would boost availability as your friend had hoped.
+	<ol type="a" start="2">
+  <li>Suggest a pattern of server failures that will end-up in an &quot;over 
+	estimation&quot; (or an &quot;under estimation&quot;) of the service availability using 
+	your friend's measurement approach?</li>
+	<li>Suggest a better measurement approach.</li>
+	<li>What assumption needs to hold for the two-server configuration suggested 
+	by your friend to yield the improvement in availability that your friend had 
+	hoped for? </li>
+	<li>Suggest a failure scenario that would violate such an 
+	assumption? </li>
+</ol>
+	&nbsp;</li>
+	<li>The average time it takes to read a block from disk is 2 msec and
+   the standard deviation is 0.8 msec. In order to retrieve a file
+   that consists of N blocks, it is necessary to perform n consecutive
+   block reads from disk. Let the random variable Tn be the time it takes to 
+	retrieve n blocks from the disk, where n is large.
+	<ol>
+		<li type="a">What is the probability distribution for the random variable Tn? 
+	Write down the PDF of Tn, when n=100.</li>
+		<li type="a">What is the mean and standard deviation of Tn, when n=100.</li>
+		<li type="a">What is the probability that the retrieval
+   time for a file that consists of 100 blocks will be between&nbsp; 185 and 190 msec?
+		</li>
+	</ol>
+	<p>&nbsp;</li>
+	<li>The arrival of packets at an Ethernet adapter of a web server is described by a
+   Poisson process with a rate of 100 packets per second. Answer the
+   following questions:
+  <blockquote>
+    <ol type="a">
+      <li>Write down the formula for the probability distribution of the number 
+		of packets arriving to the adapter in one millisecond.</li>
+		<li>What is the probability that more than 1 packet will be received 
+		within a 10-millisecond period of time?</li>
+		<li>Write down the formula for the probability distribution of the
+        inter-arrival time of packets.</li>
+		<li>What is the probability that two packets will be separated by more 
+		than 20 milliseconds?&nbsp;</li>
+		<li>What is the standard deviation of the inter-arrival time of packets?</li>
+		<li>What is the probability that the time between the arrival of a 
+      packet and the arrival of the 100th packet following that frrst packet is 
+		less than 1.1 seconds? </li>
+    </ol>
+  </blockquote>
+	</li>
+  <li>Packets that arrive to the Ethernet adapter described in the above problem are queued 
+	up in a
+        buffer until processed by the Interrupt Service Routine
+        (ISR). Assuming that the service time per packet is
+        exponential with an average of 8 milliseconds.&nbsp;Answer the following 
+	questions: 
+	<blockquote>
+    <ol type="a" start="7">
+      <li>What is the capacity of the Ethernet adapter?</li>
+		<li>Write down the probability distribution of the number of packets at 
+		the Ethernet adapter.</li>
+		<li>How many packets
+        do you expect to find in the buffer of the adapter at any point in time (on
+        average)?</li>
+		<li>What is the
+        average waiting time in the buffer (i.e. how long is a packet
+        buffered until the ISR starts processing it)?&nbsp;</li>
+      <li>What is the slowdown caused by queuing at the Ethernet adapter?</li>
+		<li>The web server is under a Denial of Service (DoS) attack, causing 
+		the system to crash. What is the minimum rate of adversarial traffic 
+		that must have been injected to cause the crash? </li>
+    </ol>
+  </blockquote></li>
+	<li>Write a C /C++/Java function -- say Zrand() -- that returns a random value that is 
+	distributed according to a standard normal distribution. Write another 
+	C/C++/Java -- say Grand() -- that uses Zrand() to generate a random value 
+	that is distributed according to a normal distribution with a mean U and 
+	standard deviation S, where U and S are the real-valued arguments of 
+	Grand(). 
+	<p>Hint: Given that all you have through common C/C++/Java libraries is a uniform random number generator 
+	-- e.g., drand48() -- you will need to find the relationship 
+		that maps a uniform random variable that ranges from 0 to 1 to a 
+		standard normal random variable. One way of doing this is to use the 
+		Central Limit Theorem (CLT) to generate this random value using the 
+		uniform random number generator drand48(). Recall that according to CLT, 
+		the sum of N random variables (that follow any distribution with finite 
+		moments) approaches a Normal distribution, whose mean is N times the 
+		mean of the individual random variables, and whose variance is N times 
+		the variance of the individual random variables. </p>
+	<p>&nbsp;Note: You may assume that aggregating 30 or more samples is &quot;enough&quot; for the CLT to 
+		hold.</p></li>
+</ol>
+		<hr color="#CE0000"></td>
+	</tr>
+</table>

@@ -1,0 +1,9 @@
+NeuralNetsHW changelog
+
+---------------------------------------
+
+2/20
+	-Weights are now "updated" hopefully
+	-Formula for delta was modified, but may or may not be correct.
+	-DeltaFlag no longer in use.
+	-Bug: Calculation tends towards an extreme rather than the expected value, i.e. actual[0] will go towards 1 whether or not expected is 1.

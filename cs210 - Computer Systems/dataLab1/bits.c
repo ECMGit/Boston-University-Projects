@@ -118,7 +118,7 @@ int leastBitPos(int x) {
 
 // TMax - return maximum two's complement integer 
 int tmax(void) {
-  return ~(1<<31);  // return the number (011111....1111)
+  return ~(1<<32);  // return the number (011111....1111)
 }
 
 // isNonNegative - return 1 if x >= 0, return 0 otherwise 

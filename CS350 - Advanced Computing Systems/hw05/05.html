@@ -1,0 +1,179 @@
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta name="Microsoft Border" content="tb">
+</head>
+<table border="0" width="660" id="table4">
+	<tr>
+		<td>
+<h2>
+<font face="Arial" color="#CE0000">Homework #5 (100 Points)</font></h2>
+
+<h4>
+       Due 03:00pm on Tuesday 03/22/2011 through
+<a href="http://blackboard.bu.edu/"><font color="#000000">
+http://blackboard.bu.edu</font></a></h4>
+
+<p>
+<i>    Feel free to make assumptions, if you feel that such assumptions
+    are  justified  or  necessary.  Please  state  your  assumptions
+    clearly.  Unreasonable assumptions  lead to unreasonable grades!</i></p>
+<hr color="#CE0000">
+<ol>
+	<li>Write a simulator 
+	that would evaluate the performance of&nbsp; a round-robin scheduler. 
+	<p>Notice that (unlike the simulators you developed for M/M/1), in this 
+	simulator you will need to keep track of various parameters for the various 
+	requests in the system. Specifically, for each request in the system, you 
+	will need to record the current arrival time of the request, the requested 
+	service time for that request, and the service time already given to that 
+	request. For a round-robin scheduler, every time the request is assigned to 
+	the resource, one must check if the request will be done if it is given up 
+	to one quantum (time slice). If so, the &quot;death&quot; event (signifying the 
+	completion of service) can be added to the simulation calendar, otherwise a 
+	&quot;timeout&quot; event (signifying the expiration of a quantum) can be added to the 
+	simulation calendar. Of course, what happens as a result of &quot;death&quot; versus 
+	&quot;timeout&quot; is different. </p>
+	<p>Test 
+	your simulator using the following parameters:
+	<ul>
+		<li>Arrival rate of new requests is Lambda = 30 requests/second</li>
+		<li>Requested service time is exponentially-distributed 
+		with a mean = Ts = 30 milliseconds</li>
+		<li>The fixed time slice (quantum) of the RR scheduler is c milliseconds</li>
+		<li>Total simulation time = 100 seconds</li>
+	</ul>
+	<p>&nbsp;<ol type="a">
+	<li>Measure the average response time for requests submitted to your 
+	round-robin scheduler when c = 1, 10, 30, and 60 milliseconds. Compare the 
+	results from your simulator to those you calculate using an M/M/1 approximation 
+	[Note: Check the notes in &quot;<a href="../../lectures/13%20FCFS%20to%20GPS.pdf">From 
+	M/M/1 to GPS</a>&quot;]. What conclusions can you make? </li>
+	<li>To show the relative performance for different types of requests, 
+	generate a bar chart (e.g., using excel) showing the average slowdown (on 
+	the Y axis) for different ranges of requested service times (on the X axis). 
+	In particular, use the following ranges (in milliseconds): 0-10; 10-20; 
+	20-30; 30-40; 40-50; 50-60; 60-70+. What conclusions can you make? Does your 
+	answer depend on c?</li>
+</ol>
+	<p>&nbsp;</li>
+	<li>Write a simulator 
+	that would evaluate the performance of&nbsp; a scheduler with the following 
+	characteristics: 
+	<ul>
+		<li>Selection Function: Select the request with the minimum remaining 
+		service time</li>
+		<li>Decision Mode: Preemptive at timeout using a fixed quantum of c 
+		milliseconds</li>
+	</ul>
+	<p>Test 
+	your simulator using the following parameters (same as round-robin problem 
+	above):
+	<ul>
+		<li>Arrival rate of new requests is Lambda = 30 requests/second</li>
+		<li>Requested service time is exponentially-distributed 
+		with a mean = Ts = 30 milliseconds</li>
+		<li>The fixed time slice (quantum) of the RR scheduler is c milliseconds</li>
+		<li>Total simulation time = 100 seconds</li>
+	</ul>
+	<p>&nbsp;<ol type="a">
+	<li>Measure the average response time and the slowdown for requests submitted to your scheduler when c = 1, 10, 
+	30, and 60 milliseconds.</li>
+	<li>To show the relative performance for different types of requests, 
+	generate a bar chart (e.g., using excel) showing the average slowdown (on 
+	the Y axis) for different ranges of requested service times (on the X axis). 
+	In particular, use the following ranges (in milliseconds): 0-10; 10-20; 
+	20-30; 30-40; 40-50; 50-60; 60-70+. What conclusions can you make? Does your 
+	answer depend on c?</li>
+	<li>Comment on differences between the observed slowdown profile of this 
+	scheduler and that of the round-robin scheduler (in the above problem).</li>
+</ol>
+		<p>&nbsp;</li>
+	<li>Three processes A, B, and C are submitted for execution at time 0 (with A 
+  ahead of B, which in turn is ahead of C in the ready queue). Processes A and B 
+  are CPU bound and each need the CPU for a total of 1 second. Process C is I/O 
+  bound. It uses the CPU for 10 milliseconds and then waits for I/O to complete 
+  for 100 milliseconds. It needs to go through this CPU-I/O cycle for 5 times.<p>Compute the slowdown for jobs A, B, and C for the following algorithms:
+  	<ul>
+		<li>FIFO</li>
+		<li>Shortest-Remaining-Time-First </li>
+		<li>Round Robin with a 200-milliseconds quantum </li>
+		<li>Virtual Round Robin with 200-milliseconds quantum</li>
+	</ul>
+	<p>&nbsp; </li>
+	<li>There are 3 classes of jobs in a computer system. Jobs of class A arrive 
+	to the system very infrequently, but are of the highest possible priority. 
+	Jobs of class C arrive to the system very infrequently and have the lowest 
+	possible priority. Jobs of class B arrive to the system quite frequently and 
+	have medium priority. Assume that all three classes of processes need the 
+	CPU. To manage the CPU, priority scheduling is used, whereby the highest 
+	priority Job that needs the CPU is scheduled (preempting any other job of 
+	lower priority that may be using the CPU, if necessary). Ties are broken 
+	arbitrarily. Answer the following questions:&nbsp;
+	<blockquote>
+		<ol type="a">
+			<li>Is starvation possible? Which of the three classes of jobs is 
+			most susceptible to starvation?&nbsp; </li>
+		</ol>
+	</blockquote>
+	<blockquote>
+		<p>Assume that jobs of class A arrive periodically every minute (i.e. 
+		exactly every minute a job of class A arrives) and that each such job 
+		needs the CPU for exactly 5 seconds. Also, assume that jobs of class B 
+		arrive periodically every second and that each such job needs the CPU 
+		for exactly 0.5 seconds. Finally, assume that jobs of class C arrive 
+		periodically every 5 minutes. </p>
+		<ol type="a" start="2">
+			<li>Assuming that&nbsp; jobs of class C need the CPU for exactly 20 
+			seconds.&nbsp; Answer the following questions: 
+			<ul type="disc">
+				<li>What is the worst-case response time for jobs of class A?&nbsp; 
+				</li>
+				<li>What is the worst-case response time for jobs of class B?&nbsp; 
+				</li>
+				<li>What is the worst-case response time for jobs of class C? 
+				<p>&nbsp; </li>
+			</ul></li>
+			<li>What is the maximum amount of CPU time per period for jobs of 
+			class C beyond which the system will never reach steady state? In 
+			other words, what is the maximum amount of CPU time per period of 
+			jobs of class C that would make the worst-case response time for 
+			some jobs in the system grow infinitely large over time... </li>
+		</ol>
+		<p>As it turns out, jobs from class A and class C need another resource 
+		R. R is a resource which cannot be shared. In other words, if a job 
+		starts using resource R, then R cannot be released to another job until 
+		that process is done---think of a printer, for example. Thus, if a job 
+		needs resource R and that resource is ``busy'' then that job must block 
+		waiting for the resource. When the resource R is released, it is given 
+		to the highest-priority job waiting for it with ties broken 
+		arbitrarily.&nbsp;</p>
+		<p>Assume that a job from classes A or C needs the resource R 
+		concurrently with the CPU (i.e. R will be ``busy'' as long as the job is 
+		not done with the CPU).&nbsp;Notice that if a job cannot get a hold of R, 
+		then it cannot compete for the CPU (it has no use for the CPU without 
+		having R).</p>
+		<ol type="a" start="4">
+			<li>Explain why the priority scheme devised for managing the CPU is 
+			not adequate when sharing resources such as R. In particular, show 
+			that under the above conditions, it is possible for a job from class 
+			A (which is presumably of the highest-priority) to be waiting for a 
+			job from class C (which is presumably of the lowest-priority) to 
+			release the shared resource R.&nbsp; </li>
+			<li>What is the worst-case response time for jobs of class A?&nbsp; 
+			</li>
+		</ol>
+		<p>Read the article on <i><a href="../../handouts/Mars/Home.html">&quot;What 
+		Really Happened on Mars?</a>&quot;</i> and answer the following:&nbsp;</p>
+		<ol type="a" start="7">
+			<li value="6">Define what is meant by priority inversion.&nbsp; </li>
+			<li>Define what is meant by priority inheritance.&nbsp; </li>
+			<li>Assuming that priority inheritance is used to schedule the CPU 
+			for jobs of classes A, B, and C. What is the worst-case response 
+			time for jobs of class A? </li>
+		</ol>
+	</blockquote>
+	<p>&nbsp;&nbsp; </p></li>
+</ol>
+		<hr color="#CE0000"></td>
+	</tr>
+</table>

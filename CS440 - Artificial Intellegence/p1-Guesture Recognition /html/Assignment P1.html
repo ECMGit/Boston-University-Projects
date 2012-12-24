@@ -1,0 +1,41 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+</head>
+
+<body>
+<h1>Gesture Recognition</h1>
+<p>Tim Duffy<br />
+CS 440, Assignement P1<br />
+February 8, 2012</p>
+<hr />
+<h2>Problem</h2>
+<p>Using a live video input, detect a range of motions using various methods of shape recognition</p>
+<hr />
+<h2>Implementation</h2>
+<p>This implementation relies on skin detection to find a person's hands and face. My program scans through each pixel and marks it as a skin pixel if it surpasses certain thresholds for hue, saturation, and intensity. The largest three blobs of skin pixels are used to detect gestures. The gestures that can be recognized are:</p>
+<p><strong>One or two hands waving</strong> - The motion of a shape is traced over three consecutive frames. If the centroid of th blob of skin pixels travels over a certain predefined distance, it is marked as a waving gesture. Furthermore, the average x values are tracked, and used to guess which hand is being waved (right or left hand). The system can distinguish if you are waving your left hand, right hand, or both hands.</p>
+<p><strong>Head shake - </strong>Using a similar method as above, motion is tracked for the shape. The detection of a head shake presumes that your hands are visible, and that your head is in the middle of your left and right hands. If the centroid of the shape moves enough, the gesture os marked as a &quot;head shake&quot;</p>
+<hr />
+<h2>Results</h2>
+<blockquote>
+  <p>Skin pixel detection works well. The left, right, and center objects are colored differently after image erosion and dilation.</p>
+  <p align="center"><img src="skinpxl.png" width="433" height="325" /></p>
+  <p align="left">The bounding boxes are seen on the output image as well.</p>
+  <p align="center"><img src="p0.png" width="438" height="326" /></p>
+  <blockquote>
+    <blockquote>
+      <p>When motion is detected, skin pixels within the bounding box are shown with a blue tint</p>
+      <p>:Here is an example of waving with one hand:</p>
+      <p><img src="1.png" width="408" height="306" /></p>
+      <p>And two hands:</p>
+      <p>: <img src="p2.png" width="396" height="298" /></p>
+      <p>.. and shaking you head:</p>
+      <p><img src="p3.png" width="405" height="303" /></p>
+    </blockquote>
+  </blockquote>
+</blockquote>
+</body>
+</html>

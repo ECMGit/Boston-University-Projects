@@ -27,13 +27,14 @@ class hw02_Q5_Tim_Duffy {
       System.out.println("The mean of these " samp + " samples is " + (sum/samps));
     }
     
+    /* Random number generator - This function returns a vaule
+     * between 0.0 to 1.0 with a uniform distribution */
     public static double Zrand(){
-      /* Random number generator - This function returns a vaule
-       * between 0.0 to 1.0 with a uniform distribution */
       Random rndm = new Random();
       return rndm.nextDouble();   
     }
     
+    // Picks a random number with mean U and std. dev. S
     public static double Grand(double U, double S){
       
       double z = Zrand();

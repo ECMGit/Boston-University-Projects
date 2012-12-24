@@ -1,0 +1,159 @@
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta name="Microsoft Border" content="tb">
+</head>
+<table border="0" width="660" id="table4">
+	<tr>
+		<td>
+<h2>
+<font face="Arial" color="#CE0000">Homework #4 (100 Points)</font></h2>
+
+<h4>
+       Due 03:00pm on Tuesday 03/08/2011 through
+<a href="http://blackboard.bu.edu/"><font color="#000000">
+http://blackboard.bu.edu</font></a></h4>
+
+<p>
+<i>    Feel free to make assumptions, if you feel that such assumptions
+    are  justified  or  necessary.  Please  state  your  assumptions
+    clearly.  Unreasonable assumptions  lead to unreasonable grades!</i></p>
+<hr color="#CE0000">
+<ol>
+	<li>
+	Write a simulator of an M/M/1 queue. Your simulator should follow the 
+  general structure described in the lecture notes. Namely, the simulator will consist of 
+  two parts: (1) a controller, which is the same exact logic for all simulators 
+  you will be writing for the course, and (2) a simulated system, which will be 
+  different for each system you simulate. 
+  	<p>As discussed in the notes, the two data structures needed for the controller 
+  are the current simulated time (initialized to 0) and a &quot;calendar&quot; or 
+  &quot;schedule&quot; of events 
+  which is a linked list of &quot;future&quot; events, each of which has a timestamp and a 
+  pointer to the function that needs to be executed at that time. The simulation 
+  controller's logic is very simple:</p>
+	<ol type="a">
+		<li>Set t=0; and call a function to initialize the simulated world and the 
+      calendar</li>
+		<li>While t is less than the desired time for the simulation<ol>
+			<li>Get the next event from the calendar</li>
+			<li>Adjust the current time to be the time of that event, and </li>
+			<li>Call the function that needs to be executed to reflect the occurrence 
+      of the event</li>
+		</ol></li>
+		<li>Call a function that prints the results of the simulation, etc.</li>
+	</ol>
+	<p>For the M/M/1 queue, the simulated &quot;world&quot; would consist of a simple 
+  linked list of requests in the queue. The two possible events (for each of 
+  which you will need to define a function) are a &quot;birth event&quot; and a &quot;death 
+  event&quot;. Notice that in each of these events, you may need to have code that 
+  would record important information, e.g., when was service started, completed, 
+  etc. In addition to figuring out the logic of these two functions, you will 
+  need to figure out how to initialize the simulated system. </p>
+	<p>Finally, in addition to the specifics of the M/M/1 system above, it is 
+  often desirable to measure a particular phenomenon (or value) every constant 
+  amount of time (say every millisecond) and report what is observed (and 
+  potentially calculate some statistics, e.g., mean, standard deviation, etc.) 
+  As discussed in the notes, a handy way to do this is to define a &quot;special&quot; 
+  event, call it the &quot;monitoring 
+  event&quot;, which happens periodically (e.g., report some value every millisecond), or even 
+	better at random exponentially distributed intervals following the PASTA 
+	principle, and which simply 
+  reports the state of the simulated world (perhaps by writing some values to a 
+  file). </p>
+	<p>To test your simulator, use it to verify the following settings for an 
+  M/M/1 system: 
+	<ol>
+		<li type="a">Lambda = 50 and Ts = 0.015 and simulation time = 100</li>
+		<li type="a">Lambda = 65 and Ts = 0.015 and simulation time = 100</li>
+		<li type="a">Lambda = 65 and Ts = 0.020 and simulation time = 100</li>
+	</ol>
+	<p>For each of the above calculate Tw, Tq, and w, and q and compare them to 
+	whatever analysis is able to tell you. Make sure that you measure the system 
+	after it had a chance to &quot;warm up&quot; (i.e., reach steady state). Recall that 
+	one way to do this is to run the simulation for twice as long and collect 
+	measurement only for the second half of your simulation. </p>
+	<p>&nbsp;</p> </li>
+	<li>Modify the M/M/1 discrete event simulator that you have developed to simulate an M/M/1/K queue. Clearly, the difference between an 
+	M/M/1/K queue and an M/M/1 queue is that upon a &quot;birth event&quot;, one of two 
+	things may happen, either the queue is not full (i.e., total number of 
+	requests in the system is less than K), in which case the birth event 
+	results in the addition of one more customer to the queue (as in the M/M/1 
+	queue), or else, the queue is full, in which case the birth event is 
+	&quot;rejected&quot;.
+	<p>To test your simulator, use it to verify the following settings for an 
+  M/M/1/K system<ol>
+		<li type="a">K = 5, Lambda = 30, Ts = 0.03 and simulation time = 100 
+		</li>
+		<li type="a">K = 5, Lambda = 50, Ts = 0.03 and simulation time = 100</li>
+	</ol>
+	<p style="margin-bottom: 0">For each of the above calculate the 
+	95th-percentile confidence interval for q, Tq, and the rejection probability 
+	and compare them to what you expect from analysis (note: this simulation is 
+	for the same setting in problem #3 in <a href="../03">homework assignment #3</a>, 
+	which you solved analytically).</p>
+	<p>Modify your M/M/1/K simulator so as to 
+		simulate an M/D/1/K system -- i.e., a finite queue of size K with 
+	Poisson arrivals and a fixed service time. To test your simulator, use it to verify the following settings for an 
+  M/G/1/K system: 
+	<ol>
+		<li type="a" value="3">K = 5, Lambda = 30, service time Ts is fixed and 
+		equal to 0.03,&nbsp; and simulation 
+		time = 100</li>
+		<li type="a">K = 5, Lambda = 50, service time Ts is fixed and equal to 
+		0.03,&nbsp; and simulation 
+		time = 100</li>
+	</ol>
+	<p>For each of the above calculate the 95th-percentile confidence interval 
+	for q, Tq, and the rejection probability, and compare to the results you 
+	obtained in parts (a) and (b). Any conclusions?</p>&nbsp;</li>
+	<li>Consider the system described in problem #5 in <a href="../03">homework 
+	assignment #3</a>, but with the following 
+  assumptions:
+  	<ul>
+		<li>Process arrivals are Poisson with a rate of 40 processes per second</li>
+		<li>CPU service time is uniformly distributed between 10 and 30 msec</li>
+		<li>Disk I/O service time is normally distributed with mean of 100 msec and 
+    standard deviation of 20 msec (but never negative)</li>
+		<li>Network service time is constant with mean of 25 msec</li>
+		<li>All buffers are of infinite size</li>
+	</ul>
+	<p>Write a discrete-event simulator for 
+  the system described above. Run your simulator for a period of 100 seconds 
+  and answer the following:&nbsp;<ol type="a">
+		<li>Plot the number of requests waiting in the CPU queue as a function of 
+  time.<br>Note: Obtain a measurement every (simulated) second and plot your 
+		measurement as a function of time (i.e. from time 0 to time 100) using 
+		spreadsheet software such as Excel.</li>
+		<li>Determine a point in the simulation after which you feel confident that 
+  the system has reached a steady state.</li>
+		<li>Compute the 95th and 98th percentile confidence interval for the:
+        <ul type="disc">
+			<li>Number of requests in the CPU queue at steady state</li>
+			<li>Response time through the system at steady state</li>
+		</ul></li>
+		<li>How do the results you obtain from this simulation compare to those you got 
+  analytically in problem #5&nbsp; in <a href="../03">homework assignment #3</a>? Comment on whether any similarity or 
+  differences makes sense. </li>
+	</ol>&nbsp;</li>
+	<li>Consider the same system used for the above problem with one modification:
+  	<ul>
+		<li>The network interface card can only hold <i>k </i>requests.</li>
+		<li>Any request for network I/O that cannot be queued will simply exit the 
+    system and are declared &quot;failed&quot;.&nbsp; </li>
+	</ul>
+	<p>Modify your simulator to allow for this modification. Answer the 
+  following:&nbsp;<ol type="a">
+		<li>Plot the percentage of failed requests that end-up exiting the system 
+    for various values of k (e.g., k=1, 2, 3, 4, 5, 10, 15, and 20). Note: Run your simulator for a period of 100 seconds for each value of k 
+    and plot the results.</li>
+		<li>You are asked to provide an estimate for the capacity of the system 
+		-- which is the offered load at which the system starts to &quot;buckle&quot;. The 
+		system buckles if any of its queues grows continuously. Using your 
+		simulator, identify the process arrival rate that make the system 
+		buckle. What resource is the culprit?</li>
+	</ol>
+	</li>
+</ol>
+		<hr color="#CE0000"></td>
+	</tr>
+</table>

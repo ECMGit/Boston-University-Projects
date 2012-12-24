@@ -1,0 +1,7 @@
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\DPLab\ConsoleApplication2\bin\Debug\DPLab.exe
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\DPLab\ConsoleApplication2\bin\Debug\DPLab.pdb
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\DPLab\ConsoleApplication2\bin\Debug\PINQ.dll
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\DPLab\ConsoleApplication2\bin\Debug\PINQ.pdb
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\DPLab\ConsoleApplication2\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\DPLab\ConsoleApplication2\obj\x86\Debug\DPLab.exe
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\DPLab\ConsoleApplication2\obj\x86\Debug\DPLab.pdb

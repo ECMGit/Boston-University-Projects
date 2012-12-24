@@ -1,0 +1,146 @@
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta name="Microsoft Border" content="tb">
+</head>
+<table border="0" width="660" id="table4">
+	<tr>
+		<td>
+<h2>
+<font face="Arial" color="#CE0000">Homework #1 (100 Points)</font></h2>
+
+<h4>
+       Due 03:00pm on Tuesday 02/08/2011 through
+<a href="http://blackboard.bu.edu/"><font color="#000000">
+http://blackboard.bu.edu</font></a></h4>
+
+<p>
+<i>    Feel free to make assumptions, if you feel that such assumptions
+    are  justified  or  necessary.  Please  state  your  assumptions
+    clearly.  Unreasonable assumptions  lead to unreasonable grades!</i></p>
+<hr color="#CE0000">
+<ol>
+  <li>
+	<p style="margin-top: 0; margin-bottom: 12px">The PMF given below describes the probability that a 
+	transaction submitted to a database server will complete in x units of time.</p>
+	<div align="center"><center>
+		<table border="1" id="table7">
+			<tr>
+				<td width="50%" align="center">x</td>
+				<td width="50%" align="center">Prob(x)</td>
+			</tr>
+			<tr>
+				<td width="50%" align="center">1</td>
+				<td width="50%" align="center">.25</td>
+			</tr>
+			<tr>
+				<td width="50%" align="center">2</td>
+				<td width="50%" align="center">.42</td>
+			</tr>
+			<tr>
+				<td width="50%" align="center">3</td>
+				<td width="50%" align="center">.33</td>
+			</tr>
+		</table></center></div>
+	<p>For example, the probability that a transaction will take two seconds to 
+	complete (i.e., x=2) is 42%. A user has to execute 3 transactions one after the other 
+	using that database server. Answer the
+    following questions:<br>
+	<ol type="a" start="4">
+		<li value="1">Compute the mean and the standard deviation of the time it takes to
+        finish the processing of a single transaction. </li>
+		<li>Derive the probability mass function for the total time it takes to finish
+        the processing of all three transactions. </li>
+		<li>Compute the mean and the standard deviation of the total time it takes to
+        finish the processing of all three transactions. </li>
+		<li>Derive the cumulative probability distribution function for the 
+		total time it takes to
+        finish the processing of all three transactions.</li>
+		<li>What is the probability that it will take no more than 5 seconds to
+        execute all three transactions?</li>
+		<li>Derive the probability mass function for the maximum time it takes 
+		to complete any one of the three transactions.</li>
+		<li>Compute the mean and the standard deviation of the maximum time it 
+		takes to complete any one of the three transactions.</li>
+	</ol>
+	<p>&nbsp;</li>
+	<li>Measurements of a network router reveal that on average the router has 8 
+	packets in transit and that the time it takes a packet to go through the 
+	router is 1 msec. Knowing that the time needed for the router to process and 
+	transmit a single packet is 0.2 msec, answer the following questions:<ol type="a">
+  <li>What would be your estimate of the rate with which packets arrive at the 
+	router? </li>
+	<li>What would be your estimate of the average number of packets waiting to 
+	be processed in the router?</li>
+	<li>According to your answers above, what is the minimum number of 
+	processors that must exist in that router?</li>
+	<li>Under what assumptions would your answers to the above questions hold?
+	</li>
+</ol>
+		<p>&nbsp;</li>
+	<li>The availability of a web server is rated at 98%. Answer the following 
+	questions:<ol type="a">
+  <li>What is the probability that in a sequence of
+    100 connections to the web server, no connections will be refused.</li>
+	<li>What is the probability that in a sequence of
+    100 connections to the web server, exactly one connection will be refused.</li>
+	<li>What is the probability that in a sequence of
+    100 connections to the web server, at most three connections will be refused.</li>
+	<li>What is the probability that the web server will be able to successfully 
+	respond to 50 or more&nbsp; consecutive requests for connections?</li>
+	<li>What is the average number of requests that will be successfully served 
+	before a connection is refused?</li>
+	<li>What is the average number of requests that will be successfully served 
+	out of a set of 500 requests for connections?</li>
+</ol>
+	<p style="margin-top: 0; margin-bottom: 6px">&nbsp;</li>
+	<li>
+	<p style="margin-top: 0; margin-bottom: 6px">The execution of an 
+	application requires that a total of 100 requests be submitted to a server one after the other (i.e., once a response is received for a 
+	request the next request is submitted).&nbsp;The average server response 
+	time for a single request is 20 msec and the standard deviation is 5 msec. Ignoring all delays other than 
+	the time it takes the above web server to respond to each one of the 100 
+	requests, one can say that the response time for the application is the sum 
+	of the response times for all 100 requests. Answer the following questions:
+<ol type="a">
+  <li>
+	<p style="margin-top: 0; margin-bottom: 0px">Write down the probability 
+	density function for the time it takes the application to execute all 100 
+	requests. </li>
+	<li>
+	<p style="margin-top: 0; margin-bottom: 0px">What is the probability that 
+	the application will take between 2 seconds and 2.1 seconds to complete?</li>
+	<li>
+	<p style="margin-top: 0; margin-bottom: 0px">What is the probability that 
+	the application will take more than 2.5 seconds to complete?</li>
+</ol>
+	<p style="margin-top: 0; margin-bottom: 0px">&nbsp;</li>
+	<li>Write a C/C++/Java function that returns a random value that is 
+	distributed according to an exponential distribution with a mean of T.
+	<blockquote>
+		<p>Hint: Given that all you have through the C library is the drand48() 
+		uniform random number generator, you will need to find the relationship 
+		that maps a uniform random variable that ranges from 0&nbsp; to 1 to an 
+		exponential random variable with mean T.&nbsp; One way of establishing this 
+		relationship is to equate the cumulative distribution functions for a 
+		uniformly distributed random variable (say U) and an exponentially 
+		distributed random variable (say V) as follows:</p>
+		<blockquote>
+			<p style="margin-top: 0; margin-bottom: 0">F(U) = U,&nbsp; where 0 &lt;= U &lt;= 1</p>
+			<p style="margin-top: 0; margin-bottom: 0">F(V) = 1 - exp(-lambda*V), where 0&lt;= V &lt;= infinity</p>
+			<p style="margin-top: 0; margin-bottom: 0">Equating the above two, we get:</p>
+			<p style="margin-top: 0; margin-bottom: 0">U = 1 - exp(-lambda*V)</p>
+			<p style="margin-top: 0; margin-bottom: 0">Which leads to the following relationship.&nbsp;</p>
+			<p style="margin-top: 0; margin-bottom: 0">V = - ln(1-U) /lambda</p>
+		</blockquote>
+		<p>Thus, to generate an exponentially distributed random variable V with 
+		a mean of (1/lambda), one need to generate a uniformly distributed 
+		random variable U and substitute in the equation above.</p>
+	</blockquote>
+	<p>Run your simulator to generate 100 values (for some value of lambda). 
+	Compare the CDF of the random variable that you have obtained empirically 
+	with the CDF obtained analytically. Do they match? Explain why or why not.&nbsp;
+	</p></li>
+</ol>
+		<hr color="#CE0000"></td>
+	</tr>
+</table>
